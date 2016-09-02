@@ -136,13 +136,13 @@ presets="@Variant(\0\0\0\b\0\0\0\x1\0\0\0\x16\0<\0L\0\x61\0s\0t\0 \0U\0s\0\x65\0
 preview=false
 
 [Format]
-archive=gz arj tgz rar tar zip
-audio=mp2 asx ogg au mid mp3 mpp snd wma rmi mp+ wav mpc flac aif
-avi=wmv mkv avi vfw rm vob flv divx asf
-mpeg=mpeg mpe m2v mpg m1v mts m2ts mpm m4a mpa m1s mp4
-ps=epsf ai eps ps pdf
-qt=3g2 mov 3gp2 3gp qt
-text=c++ css xmp txt cpp c pas ini js cc php h
+archive=tar rar arj gz tgz zip
+audio=mpc wma au asx mpp rmi snd flac wav mp2 mid mp+ mp3 ogg aif
+avi=rm avi vfw vob mkv flv divx asf wmv
+mpeg=m1s m2v mts mpeg mp4 mpa mpe mpg m2ts m4a m1v mpm
+ps=epsf ai pdf ps eps
+qt=3gp2 mov 3g2 qt 3gp
+text=js cc c++ ini php txt css c pas xmp cpp h
 
 [%General]
 allFormats=false
@@ -307,13 +307,13 @@ History=/home/jad/
 OpenWith=@Invalid()
 OpenWithName=@Invalid()
 PathBrowser=/home/jad/
-RecentFiles=/home/jad/Earth(\x590d\x4ef6).png, /home/jad/Downloads/[\x591c\x685c\x5b57\x5e55\x7ec4][090630][I]\x3046\x3089\x30c9\x30e9![BIG5+GB]/[\x591c\x685c\x5b57\x5e55\x7ec4][090630][I]\x3046\x3089\x30c9\x30e9!.jpg, /home/jad/Downloads/[\x8138\x80bf\x5b57\x5e55\x7ec4][Animan]Misuzu \x30a4\x30b1\x30ca\x30a4\x30b3\x30c8\x41nime Edition/[\x5c01\x9762][Animan]Misuzu \x30a4\x30b1\x30ca\x30a4\x30b3\x30c8\x41nime Edition.jpg, /home/jad/Downloads/[\x591c\x685c\x5b57\x5e55\x7ec4][160129][survive]\x30d3\x30c3\x30c1\x306a\x3042\x306e\x5b50\x306f\x7bb1\x5165\x308a\x5a18\xff1f[BIG5+GB]/[\x591c\x685c\x5b57\x5e55\x7ec4][160129] [survive]\x30d3\x30c3\x30c1\x306a\x3042\x306e\x5b50\x306f\x7bb1\x5165\x308a\x5a18\xff1f.jpg, /home/jad/Pictures/work_sakura/sakura.png, /home/jad/Pictures/work_sakura/1.jpg, /home/jad/Pictures/2016-08-31 20-02-07 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Pictures/2016-08-31 20-01-32 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Downloads/\x4e0b\x8f7d, /home/jad/Pictures/2016-08-31 19-28-33 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Pictures/2016-08-26 11-22-24 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Pictures/27557342_p0_waifu2x_art_noise1_scale_tta_1.png, /home/jad/Pictures/44879182_p0.png, /home/jad/Pictures/2016-08-16 20-57-41\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Pictures/2016-08-31 15-19-36 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Pictures/2016-08-31 17-24-28 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Pictures/2016-08-31 17-10-58 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/10.png, /home/jad/Earth.png, /home/jad/Downloads/[\x685c\x90fd\x5b57\x5e55\x7ec4][PoRO]\x771f\x30fb\x79d8\x6e6f\x3081\x3050\x308a \x82e5\x5973\x5c06\x306e\x6147\x61c3\xff5e\x8e8a\x8e87\x3044\x6372\x308b\x524d\x8eab\x9803/\x685c\x90fd\x5b57\x5e55\x7ec4\x62db\x52df\x4e2d\xff5e.jpg
+RecentFiles=/home/jad/Downloads/hima820160830110000fd.png, /home/jad/Earth(\x590d\x4ef6).png, /home/jad/Downloads/[\x591c\x685c\x5b57\x5e55\x7ec4][090630][I]\x3046\x3089\x30c9\x30e9![BIG5+GB]/[\x591c\x685c\x5b57\x5e55\x7ec4][090630][I]\x3046\x3089\x30c9\x30e9!.jpg, /home/jad/Downloads/[\x8138\x80bf\x5b57\x5e55\x7ec4][Animan]Misuzu \x30a4\x30b1\x30ca\x30a4\x30b3\x30c8\x41nime Edition/[\x5c01\x9762][Animan]Misuzu \x30a4\x30b1\x30ca\x30a4\x30b3\x30c8\x41nime Edition.jpg, /home/jad/Downloads/[\x591c\x685c\x5b57\x5e55\x7ec4][160129][survive]\x30d3\x30c3\x30c1\x306a\x3042\x306e\x5b50\x306f\x7bb1\x5165\x308a\x5a18\xff1f[BIG5+GB]/[\x591c\x685c\x5b57\x5e55\x7ec4][160129] [survive]\x30d3\x30c3\x30c1\x306a\x3042\x306e\x5b50\x306f\x7bb1\x5165\x308a\x5a18\xff1f.jpg, /home/jad/Pictures/work_sakura/sakura.png, /home/jad/Pictures/work_sakura/1.jpg, /home/jad/Pictures/2016-08-31 20-02-07 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Pictures/2016-08-31 20-01-32 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Downloads/\x4e0b\x8f7d, /home/jad/Pictures/2016-08-31 19-28-33 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Pictures/2016-08-26 11-22-24 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Pictures/27557342_p0_waifu2x_art_noise1_scale_tta_1.png, /home/jad/Pictures/44879182_p0.png, /home/jad/Pictures/2016-08-16 20-57-41\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Pictures/2016-08-31 15-19-36 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Pictures/2016-08-31 17-24-28 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Pictures/2016-08-31 17-10-58 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/10.png, /home/jad/Earth.png
 customPath=
 dbFlag=0
 dbFolder=
 dbThumbFlag=3
 dbThumbFolder=
-geom=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\0\0\0\0\0\x1e\0\0\a\x7f\0\0\x4\x37\0\0\0\xb9\0\0\0\x42\0\0\x5\xd3\0\0\x3\x34\0\0\0\0\x2\0\0\0\a\x80)
+geom=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\0\0\0\0\0\x1e\0\0\a\x7f\0\0\x4\x37\0\0\0\0\0\0\0\x42\0\0\a\x7f\0\0\x4\x37\0\0\0\0\x2\0\0\0\a\x80)
 language=zh
 oneInstance=false
 otherFlag=0
