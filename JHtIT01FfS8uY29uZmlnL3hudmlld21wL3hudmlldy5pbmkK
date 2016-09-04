@@ -136,13 +136,13 @@ presets="@Variant(\0\0\0\b\0\0\0\x1\0\0\0\x16\0<\0L\0\x61\0s\0t\0 \0U\0s\0\x65\0
 preview=false
 
 [Format]
-archive=rar gz arj tgz zip tar
-audio=ogg mp2 mp3 wav mp+ au mpp mpc flac aif asx mid snd wma rmi
-avi=asf rm wmv divx mkv flv avi vob vfw
-mpeg=mpa mpm m1v mpeg m2v m1s mpg m4a m2ts mpe mts mp4
-ps=pdf ps epsf eps ai
-qt=mov 3g2 3gp2 3gp qt
-text=js c++ c h php cc txt cpp ini xmp pas css
+archive=tgz zip tar arj gz rar
+audio=mpp mid flac snd aif au mp3 ogg asx mpc mp+ mp2 wav rmi wma
+avi=divx wmv avi vob asf vfw flv rm mkv
+mpeg=mpe m1s m1v mpm mp4 mts m4a mpg mpeg mpa m2ts m2v
+ps=ai epsf ps eps pdf
+qt=3g2 mov 3gp2 3gp qt
+text=cpp css c++ ini php c pas cc xmp h js txt
 
 [%General]
 allFormats=false
@@ -307,7 +307,7 @@ History=/home/jad/
 OpenWith=@Invalid()
 OpenWithName=@Invalid()
 PathBrowser=/home/jad/
-RecentFiles=/home/jad/Pictures/21665131_p0.jpg, /home/jad/Pictures/\x672a\x547d\x540d\x6587\x4ef6\x5939/18513240_p0_waifu2x_art_noise0_scale_tta_1.png, /home/jad/vbox/18513240_p0.jpg, /home/jad/Earth.png, /home/jad/Pictures/2016-08-26 11-22-24 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Downloads/hima820160830110000fd.png, /home/jad/Earth(\x590d\x4ef6).png, /home/jad/Downloads/[\x591c\x685c\x5b57\x5e55\x7ec4][090630][I]\x3046\x3089\x30c9\x30e9![BIG5+GB]/[\x591c\x685c\x5b57\x5e55\x7ec4][090630][I]\x3046\x3089\x30c9\x30e9!.jpg, /home/jad/Downloads/[\x8138\x80bf\x5b57\x5e55\x7ec4][Animan]Misuzu \x30a4\x30b1\x30ca\x30a4\x30b3\x30c8\x41nime Edition/[\x5c01\x9762][Animan]Misuzu \x30a4\x30b1\x30ca\x30a4\x30b3\x30c8\x41nime Edition.jpg, /home/jad/Downloads/[\x591c\x685c\x5b57\x5e55\x7ec4][160129][survive]\x30d3\x30c3\x30c1\x306a\x3042\x306e\x5b50\x306f\x7bb1\x5165\x308a\x5a18\xff1f[BIG5+GB]/[\x591c\x685c\x5b57\x5e55\x7ec4][160129] [survive]\x30d3\x30c3\x30c1\x306a\x3042\x306e\x5b50\x306f\x7bb1\x5165\x308a\x5a18\xff1f.jpg, /home/jad/Pictures/work_sakura/sakura.png, /home/jad/Pictures/work_sakura/1.jpg, /home/jad/Pictures/2016-08-31 20-02-07 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Pictures/2016-08-31 20-01-32 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Downloads/\x4e0b\x8f7d, /home/jad/Pictures/2016-08-31 19-28-33 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Pictures/27557342_p0_waifu2x_art_noise1_scale_tta_1.png, /home/jad/Pictures/44879182_p0.png, /home/jad/Pictures/2016-08-16 20-57-41\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Pictures/2016-08-31 15-19-36 \x7684\x5c4f\x5e55\x622a\x56fe.png
+RecentFiles=/run/media/jad/Kindle/linkss/screensavers/bg_ss00.png, /run/media/jad/Kindle/screenshot_2016_09_03T19_52_53+0800.png, /run/media/jad/Kindle/screenshot_2016_09_03T16_58_14+0800.png, /home/jad/Pictures/21665131_p0.jpg, /home/jad/Pictures/\x672a\x547d\x540d\x6587\x4ef6\x5939/18513240_p0_waifu2x_art_noise0_scale_tta_1.png, /home/jad/vbox/18513240_p0.jpg, /home/jad/Earth.png, /home/jad/Pictures/2016-08-26 11-22-24 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Downloads/hima820160830110000fd.png, /home/jad/Earth(\x590d\x4ef6).png, /home/jad/Downloads/[\x591c\x685c\x5b57\x5e55\x7ec4][090630][I]\x3046\x3089\x30c9\x30e9![BIG5+GB]/[\x591c\x685c\x5b57\x5e55\x7ec4][090630][I]\x3046\x3089\x30c9\x30e9!.jpg, /home/jad/Downloads/[\x8138\x80bf\x5b57\x5e55\x7ec4][Animan]Misuzu \x30a4\x30b1\x30ca\x30a4\x30b3\x30c8\x41nime Edition/[\x5c01\x9762][Animan]Misuzu \x30a4\x30b1\x30ca\x30a4\x30b3\x30c8\x41nime Edition.jpg, /home/jad/Downloads/[\x591c\x685c\x5b57\x5e55\x7ec4][160129][survive]\x30d3\x30c3\x30c1\x306a\x3042\x306e\x5b50\x306f\x7bb1\x5165\x308a\x5a18\xff1f[BIG5+GB]/[\x591c\x685c\x5b57\x5e55\x7ec4][160129] [survive]\x30d3\x30c3\x30c1\x306a\x3042\x306e\x5b50\x306f\x7bb1\x5165\x308a\x5a18\xff1f.jpg, /home/jad/Pictures/work_sakura/sakura.png, /home/jad/Pictures/work_sakura/1.jpg, /home/jad/Pictures/2016-08-31 20-02-07 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Pictures/2016-08-31 20-01-32 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Downloads/\x4e0b\x8f7d, /home/jad/Pictures/2016-08-31 19-28-33 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Pictures/27557342_p0_waifu2x_art_noise1_scale_tta_1.png
 customPath=
 dbFlag=0
 dbFolder=
