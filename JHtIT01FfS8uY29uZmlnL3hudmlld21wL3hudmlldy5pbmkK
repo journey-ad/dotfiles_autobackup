@@ -131,18 +131,18 @@ useMaxCache=false
 
 [EnhanceColorDlg]
 apply=false
-geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\x2T\0\0\x1.\0\0\x4\x38\0\0\x3\0\0\0\x2T\0\0\x1R\0\0\x4\x38\0\0\x3\0\0\0\0\0\0\0\0\0\a\x80)
-presets="@Variant(\0\0\0\b\0\0\0\x1\0\0\0\x16\0<\0L\0\x61\0s\0t\0 \0U\0s\0\x65\0\x64\0>\0\0\0\f\0\0\0,\0\0\0\x1\0\0\0\0\0\0\0\0?\xf0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\xff\xff\xff\x9c)"
+geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\x2\xbf\0\0\x1\x38\0\0\x4\xa3\0\0\x3\n\0\0\x2\xbf\0\0\x1\\\0\0\x4\xa3\0\0\x3\n\0\0\0\0\0\0\0\0\a\x80)
+presets="@Variant(\0\0\0\b\0\0\0\x1\0\0\0\x16\0<\0L\0\x61\0s\0t\0 \0U\0s\0\x65\0\x64\0>\0\0\0\f\0\0\0,\0\0\0\x1\0\0\0\0\0\0\0\n?\xf0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\xff\xff\xff\x9c)"
 preview=false
 
 [Format]
-archive=tar zip rar arj gz tgz
-audio=mid mp2 aif wma flac mpc mpp ogg snd mp3 rmi asx wav au mp+
-avi=asf flv rm divx vfw wmv vob mkv avi
-mpeg=m1v mpg mpa mpeg mts m2ts mpe mp4 m4a m2v mpm m1s
-ps=eps pdf ai epsf ps
-qt=3gp2 mov 3g2 qt 3gp
-text=cc js txt ini h xmp php pas c++ css c cpp
+archive=arj gz tar rar tgz zip
+audio=mpc wma mp2 snd asx wav rmi mpp ogg au mp+ mid aif flac mp3
+avi=divx flv wmv avi asf rm vfw vob mkv
+mpeg=m1s m2v mp4 mpm mts mpa mpe m1v m4a mpeg m2ts mpg
+ps=epsf ai eps pdf ps
+qt=mov 3gp2 qt 3g2 3gp
+text=ini c cpp c++ xmp pas cc php h txt js css
 
 [%General]
 allFormats=false
@@ -241,6 +241,10 @@ prevDocked=true
 tabs=true
 vTab=65407
 
+[Properties]
+geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\x2\x9d\0\0\x1\x38\0\0\x4h\0\0\x2\xeb\0\0\x2\x9d\0\0\x1\\\0\0\x4h\0\0\x2\xeb\0\0\0\0\0\0\0\0\a\x80)
+tabs=65535
+
 [ResizeDlg]
 geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\x2\x8a\0\0\x1%\0\0\x3\x97\0\0\x3\x46\0\0\x2\x8a\0\0\x1I\0\0\x3\x97\0\0\x3\x46\0\0\0\0\0\0\0\0\a\x80)
 presets=@Variant(\0\0\0\b\0\0\0\x1\0\0\0\x16\0<\0L\0\x61\0s\0t\0 \0U\0s\0\x65\0\x64\0>\0\0\0\f\0\0\0\x33\0\0\0\x1\0\0\0\x32\0\0\0\x32\x1\0\0\0\x1@!\xc7\xae\x14z\xe1H@:\xab\x85\x1e\xb8Q\xec@R\0\0\0\0\0\0\0\0\0\x1\0\0\0\0\x1\0)
@@ -300,20 +304,20 @@ useOriginalJPEGQuality=false
 
 [Settings]
 cacheList=@ByteArray(\0\0\0\xff\0\0\0\0\0\0\0\x1\0\0\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x1\xf8\0\0\0\x3\x1\0\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\x64\xff\xff\xff\xff\0\0\0\x81\0\0\0\0\0\0\0\x3\0\0\0\x64\0\0\0\x1\0\0\0\0\0\0\0\x64\0\0\0\x1\0\0\0\0\0\0\x1\x30\0\0\0\x1\0\0\0\0\0\0\x3\xe8\0)
-geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\x1\xfe\0\0\0\x94\0\0\x4\xcd\0\0\x3\x97\0\0\x1\xfe\0\0\0\xb8\0\0\x4\xcd\0\0\x3\x97\0\0\0\0\0\0\0\0\a\x80)
+geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\x2\x1b\0\0\0\x90\0\0\x4\xea\0\0\x3\x93\0\0\x2\x1b\0\0\0\xb4\0\0\x4\xea\0\0\x3\x93\0\0\0\0\0\0\0\0\a\x80)
 
 [Start]
 History=/home/jad/
 OpenWith=@Invalid()
 OpenWithName=@Invalid()
 PathBrowser=/home/jad/
-RecentFiles=/home/jad/Earth.png, /run/media/jad/Kindle/linkss/screensavers/bg_ss00.png, /run/media/jad/Kindle/screenshot_2016_09_03T19_52_53+0800.png, /run/media/jad/Kindle/screenshot_2016_09_03T16_58_14+0800.png, /home/jad/Pictures/21665131_p0.jpg, /home/jad/Pictures/\x672a\x547d\x540d\x6587\x4ef6\x5939/18513240_p0_waifu2x_art_noise0_scale_tta_1.png, /home/jad/vbox/18513240_p0.jpg, /home/jad/Pictures/2016-08-26 11-22-24 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Downloads/hima820160830110000fd.png, /home/jad/Earth(\x590d\x4ef6).png, /home/jad/Downloads/[\x591c\x685c\x5b57\x5e55\x7ec4][090630][I]\x3046\x3089\x30c9\x30e9![BIG5+GB]/[\x591c\x685c\x5b57\x5e55\x7ec4][090630][I]\x3046\x3089\x30c9\x30e9!.jpg, /home/jad/Downloads/[\x8138\x80bf\x5b57\x5e55\x7ec4][Animan]Misuzu \x30a4\x30b1\x30ca\x30a4\x30b3\x30c8\x41nime Edition/[\x5c01\x9762][Animan]Misuzu \x30a4\x30b1\x30ca\x30a4\x30b3\x30c8\x41nime Edition.jpg, /home/jad/Downloads/[\x591c\x685c\x5b57\x5e55\x7ec4][160129][survive]\x30d3\x30c3\x30c1\x306a\x3042\x306e\x5b50\x306f\x7bb1\x5165\x308a\x5a18\xff1f[BIG5+GB]/[\x591c\x685c\x5b57\x5e55\x7ec4][160129] [survive]\x30d3\x30c3\x30c1\x306a\x3042\x306e\x5b50\x306f\x7bb1\x5165\x308a\x5a18\xff1f.jpg, /home/jad/Pictures/work_sakura/sakura.png, /home/jad/Pictures/work_sakura/1.jpg, /home/jad/Pictures/2016-08-31 20-02-07 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Pictures/2016-08-31 20-01-32 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Downloads/\x4e0b\x8f7d, /home/jad/Pictures/2016-08-31 19-28-33 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Pictures/27557342_p0_waifu2x_art_noise1_scale_tta_1.png
+RecentFiles=/home/jad/Pictures/58746422_p0_waifu2x_art_noise0_scale_tta_1.png, /home/jad/Earth.png, /run/media/jad/Kindle/linkss/screensavers/bg_ss00.png, /run/media/jad/Kindle/screenshot_2016_09_03T19_52_53+0800.png, /run/media/jad/Kindle/screenshot_2016_09_03T16_58_14+0800.png, /home/jad/Pictures/21665131_p0.jpg, /home/jad/Pictures/\x672a\x547d\x540d\x6587\x4ef6\x5939/18513240_p0_waifu2x_art_noise0_scale_tta_1.png, /home/jad/vbox/18513240_p0.jpg, /home/jad/Pictures/2016-08-26 11-22-24 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Downloads/hima820160830110000fd.png, /home/jad/Earth(\x590d\x4ef6).png, /home/jad/Downloads/[\x591c\x685c\x5b57\x5e55\x7ec4][090630][I]\x3046\x3089\x30c9\x30e9![BIG5+GB]/[\x591c\x685c\x5b57\x5e55\x7ec4][090630][I]\x3046\x3089\x30c9\x30e9!.jpg, /home/jad/Downloads/[\x8138\x80bf\x5b57\x5e55\x7ec4][Animan]Misuzu \x30a4\x30b1\x30ca\x30a4\x30b3\x30c8\x41nime Edition/[\x5c01\x9762][Animan]Misuzu \x30a4\x30b1\x30ca\x30a4\x30b3\x30c8\x41nime Edition.jpg, /home/jad/Downloads/[\x591c\x685c\x5b57\x5e55\x7ec4][160129][survive]\x30d3\x30c3\x30c1\x306a\x3042\x306e\x5b50\x306f\x7bb1\x5165\x308a\x5a18\xff1f[BIG5+GB]/[\x591c\x685c\x5b57\x5e55\x7ec4][160129] [survive]\x30d3\x30c3\x30c1\x306a\x3042\x306e\x5b50\x306f\x7bb1\x5165\x308a\x5a18\xff1f.jpg, /home/jad/Pictures/work_sakura/sakura.png, /home/jad/Pictures/work_sakura/1.jpg, /home/jad/Pictures/2016-08-31 20-02-07 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Pictures/2016-08-31 20-01-32 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Downloads/\x4e0b\x8f7d, /home/jad/Pictures/2016-08-31 19-28-33 \x7684\x5c4f\x5e55\x622a\x56fe.png
 customPath=
 dbFlag=0
 dbFolder=
 dbThumbFlag=3
 dbThumbFolder=
-geom=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\0\xaa\0\0\0U\0\0\x6I\0\0\x3\xce\0\0\0\xaa\0\0\0y\0\0\x6I\0\0\x3\xce\0\0\0\0\0\0\0\0\a\x80)
+geom=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\0\xfb\0\0\0\xbe\0\0\x6\x9a\0\0\x4\x37\0\0\0\xfb\0\0\0\xe2\0\0\x6\x9a\0\0\x4\x37\0\0\0\0\0\0\0\0\a\x80)
 language=zh
 oneInstance=false
 otherFlag=0
