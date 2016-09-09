@@ -136,13 +136,13 @@ presets="@Variant(\0\0\0\b\0\0\0\x1\0\0\0\x16\0<\0L\0\x61\0s\0t\0 \0U\0s\0\x65\0
 preview=false
 
 [Format]
-archive=tar zip tgz rar arj gz
-audio=aif asx wma mp2 mp3 mid ogg mpc wav snd mp+ au flac mpp rmi
-avi=divx vob rm flv wmv asf vfw mkv avi
-mpeg=m1v mpe m2ts mp4 m2v mpg mts m4a mpeg mpm mpa m1s
-ps=eps epsf ai pdf ps
-qt=3gp 3gp2 mov 3g2 qt
-text=css c js c++ txt php cc h ini xmp pas cpp
+archive=arj tar rar tgz gz zip
+audio=wma mp3 mp2 wav mp+ mpc ogg au snd mid mpp aif rmi flac asx
+avi=wmv asf mkv avi vob flv rm vfw divx
+mpeg=mpg mp4 mpa m2ts m1s m2v mts m1v mpm m4a mpeg mpe
+ps=eps ai pdf epsf ps
+qt=3g2 3gp qt mov 3gp2
+text=txt h xmp php cpp cc c++ js c ini css pas
 
 [%General]
 allFormats=false
@@ -311,7 +311,7 @@ History=/home/jad/
 OpenWith=@Invalid()
 OpenWithName=@Invalid()
 PathBrowser=/home/jad/
-RecentFiles=/home/jad/Desktop/RMT/57683360_p0.jpg, /home/jad/Desktop/RMT/57655111_p0.jpg, /home/jad/Earth.png, /home/jad/gnomecss/theme/bg.png, /home/jad/Pictures/18513240_p0_waifu2x_art_noise0_scale_tta_1.png, /run/media/jad/Kindle/linkss/screensavers/bg_ss18.png, /home/jad/Desktop/6597307261168707013.png, /home/jad/Pictures/58746422_p0_waifu2x_art_noise0_scale_tta_1.png, /run/media/jad/Kindle/linkss/screensavers/bg_ss00.png, /run/media/jad/Kindle/screenshot_2016_09_03T19_52_53+0800.png, /run/media/jad/Kindle/screenshot_2016_09_03T16_58_14+0800.png, /home/jad/Pictures/21665131_p0.jpg, /home/jad/Pictures/\x672a\x547d\x540d\x6587\x4ef6\x5939/18513240_p0_waifu2x_art_noise0_scale_tta_1.png, /home/jad/vbox/18513240_p0.jpg, /home/jad/Pictures/2016-08-26 11-22-24 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Downloads/hima820160830110000fd.png, /home/jad/Earth(\x590d\x4ef6).png, /home/jad/Downloads/[\x591c\x685c\x5b57\x5e55\x7ec4][090630][I]\x3046\x3089\x30c9\x30e9![BIG5+GB]/[\x591c\x685c\x5b57\x5e55\x7ec4][090630][I]\x3046\x3089\x30c9\x30e9!.jpg, /home/jad/Downloads/[\x8138\x80bf\x5b57\x5e55\x7ec4][Animan]Misuzu \x30a4\x30b1\x30ca\x30a4\x30b3\x30c8\x41nime Edition/[\x5c01\x9762][Animan]Misuzu \x30a4\x30b1\x30ca\x30a4\x30b3\x30c8\x41nime Edition.jpg, /home/jad/Downloads/[\x591c\x685c\x5b57\x5e55\x7ec4][160129][survive]\x30d3\x30c3\x30c1\x306a\x3042\x306e\x5b50\x306f\x7bb1\x5165\x308a\x5a18\xff1f[BIG5+GB]/[\x591c\x685c\x5b57\x5e55\x7ec4][160129] [survive]\x30d3\x30c3\x30c1\x306a\x3042\x306e\x5b50\x306f\x7bb1\x5165\x308a\x5a18\xff1f.jpg
+RecentFiles=/home/jad/gnomecss/theme/bg.png, /home/jad/Pictures/04297bc5-29da-4eaa-ce74-c6da5abb005d_waifu2x_art_scale_tta_1.png, /home/jad/Pictures/04297bc5-29da-4eaa-ce74-c6da5abb005d.png, /home/jad/Desktop/RMT/57683360_p0.jpg, /home/jad/Desktop/RMT/57655111_p0.jpg, /home/jad/Earth.png, /home/jad/Pictures/18513240_p0_waifu2x_art_noise0_scale_tta_1.png, /run/media/jad/Kindle/linkss/screensavers/bg_ss18.png, /home/jad/Desktop/6597307261168707013.png, /home/jad/Pictures/58746422_p0_waifu2x_art_noise0_scale_tta_1.png, /run/media/jad/Kindle/linkss/screensavers/bg_ss00.png, /run/media/jad/Kindle/screenshot_2016_09_03T19_52_53+0800.png, /run/media/jad/Kindle/screenshot_2016_09_03T16_58_14+0800.png, /home/jad/Pictures/21665131_p0.jpg, /home/jad/Pictures/\x672a\x547d\x540d\x6587\x4ef6\x5939/18513240_p0_waifu2x_art_noise0_scale_tta_1.png, /home/jad/vbox/18513240_p0.jpg, /home/jad/Pictures/2016-08-26 11-22-24 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Downloads/hima820160830110000fd.png, /home/jad/Earth(\x590d\x4ef6).png, /home/jad/Downloads/[\x591c\x685c\x5b57\x5e55\x7ec4][090630][I]\x3046\x3089\x30c9\x30e9![BIG5+GB]/[\x591c\x685c\x5b57\x5e55\x7ec4][090630][I]\x3046\x3089\x30c9\x30e9!.jpg
 customPath=
 dbFlag=0
 dbFolder=
