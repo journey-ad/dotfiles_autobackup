@@ -136,13 +136,13 @@ presets="@Variant(\0\0\0\b\0\0\0\x1\0\0\0\x16\0<\0L\0\x61\0s\0t\0 \0U\0s\0\x65\0
 preview=false
 
 [Format]
-archive=arj tgz zip tar gz rar
-audio=mp3 mpc aif snd mp2 wav ogg rmi mp+ flac wma mid mpp asx au
-avi=avi asf vob vfw wmv mkv divx flv rm
-mpeg=m1v m2ts mpeg m2v mpa m4a mpm m1s mts mpe mpg mp4
-ps=eps epsf pdf ps ai
-qt=3g2 qt 3gp mov 3gp2
-text=pas php ini c++ cc txt h c css xmp js cpp
+archive=rar tgz arj zip tar gz
+audio=flac mpp ogg mpc mp2 wma wav mid au aif snd mp3 asx rmi mp+
+avi=vfw mkv avi asf flv divx rm vob wmv
+mpeg=mpg mts m1v mpm mpa m2v m4a mpeg mpe m1s mp4 m2ts
+ps=ai ps eps epsf pdf
+qt=3gp2 3gp 3g2 qt mov
+text=c++ cpp h txt ini css cc php c pas xmp js
 
 [%General]
 allFormats=false
@@ -311,13 +311,13 @@ History=/home/jad/
 OpenWith=@Invalid()
 OpenWithName=@Invalid()
 PathBrowser=/home/jad/
-RecentFiles=/run/media/jad/BFB1-7967/\x84dd\x5e95\x8bc1\x4ef6\x7167\x526f\x672c.jpg, /run/media/jad/E/menu/pictures/[SumiSora&CASO][kimiuso][BDRip][07][x264_2flac](148A8742).mkv_20160717_120323.937 s2(Y)(noise)(Level1).png, /home/jad/vbox/QQ\x56fe\x7247\x32\x30\x31\x36\x30\x39\x32\x30\x31\x33\x32\x30\x35\x33.jpg, /usr/share/nginx/html/test/00000001.jpg, /home/jad/QQ\x56fe\x7247\x32\x30\x31\x36\x30\x39\x31\x39\x31\x33\x34\x32\x30\x39.jpg, /home/jad/gnomecss/theme/bg.png, /home/jad/Pictures/04297bc5-29da-4eaa-ce74-c6da5abb005d_waifu2x_art_scale_tta_1.png, /home/jad/Pictures/04297bc5-29da-4eaa-ce74-c6da5abb005d.png, /home/jad/Desktop/RMT/57683360_p0.jpg, /home/jad/Desktop/RMT/57655111_p0.jpg, /home/jad/Earth.png, /home/jad/Pictures/18513240_p0_waifu2x_art_noise0_scale_tta_1.png, /run/media/jad/Kindle/linkss/screensavers/bg_ss18.png, /home/jad/Desktop/6597307261168707013.png, /home/jad/Pictures/58746422_p0_waifu2x_art_noise0_scale_tta_1.png, /run/media/jad/Kindle/linkss/screensavers/bg_ss00.png, /run/media/jad/Kindle/screenshot_2016_09_03T19_52_53+0800.png, /run/media/jad/Kindle/screenshot_2016_09_03T16_58_14+0800.png, /home/jad/Pictures/21665131_p0.jpg, /home/jad/Pictures/\x672a\x547d\x540d\x6587\x4ef6\x5939/18513240_p0_waifu2x_art_noise0_scale_tta_1.png
+RecentFiles=/home/jad/.cache/.fr-9jhYoQ/36A.jpg, /home/jad/.cache/.fr-lcta5j/24A.jpg, /home/jad/.cache/.fr-m8BJK3/19A.jpg, /run/media/jad/BFB1-7967/\x84dd\x5e95\x8bc1\x4ef6\x7167\x526f\x672c.jpg, /run/media/jad/E/menu/pictures/[SumiSora&CASO][kimiuso][BDRip][07][x264_2flac](148A8742).mkv_20160717_120323.937 s2(Y)(noise)(Level1).png, /home/jad/vbox/QQ\x56fe\x7247\x32\x30\x31\x36\x30\x39\x32\x30\x31\x33\x32\x30\x35\x33.jpg, /usr/share/nginx/html/test/00000001.jpg, /home/jad/QQ\x56fe\x7247\x32\x30\x31\x36\x30\x39\x31\x39\x31\x33\x34\x32\x30\x39.jpg, /home/jad/gnomecss/theme/bg.png, /home/jad/Pictures/04297bc5-29da-4eaa-ce74-c6da5abb005d_waifu2x_art_scale_tta_1.png, /home/jad/Pictures/04297bc5-29da-4eaa-ce74-c6da5abb005d.png, /home/jad/Desktop/RMT/57683360_p0.jpg, /home/jad/Desktop/RMT/57655111_p0.jpg, /home/jad/Earth.png, /home/jad/Pictures/18513240_p0_waifu2x_art_noise0_scale_tta_1.png, /run/media/jad/Kindle/linkss/screensavers/bg_ss18.png, /home/jad/Desktop/6597307261168707013.png, /home/jad/Pictures/58746422_p0_waifu2x_art_noise0_scale_tta_1.png, /run/media/jad/Kindle/linkss/screensavers/bg_ss00.png, /run/media/jad/Kindle/screenshot_2016_09_03T19_52_53+0800.png
 customPath=
 dbFlag=0
 dbFolder=
 dbThumbFlag=3
 dbThumbFolder=
-geom=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\x1'\0\0\0t\0\0\x6\xc6\0\0\x3\xb2\0\0\x1'\0\0\0\x98\0\0\x6\xc6\0\0\x3\xb2\0\0\0\0\0\0\0\0\a\x80)
+geom=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\0\xb1\0\0\0z\0\0\x6P\0\0\x3\xc0\0\0\0\xb1\0\0\0\x9e\0\0\x6P\0\0\x3\xc0\0\0\0\0\0\0\0\0\a\x80)
 language=zh
 oneInstance=false
 otherFlag=0
@@ -386,7 +386,7 @@ saveFolder=/home/jad/Pictures/work_sakura/
 saveUseOrg=false
 slideDelay=2000
 slideDir=0
-state=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\0\0\0\x5\xa0\0\0\x2\x93\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\n]\xe5Qwh\xf\0 \0\x31\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0)
+state=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\0\0\0\x5\xa0\0\0\x2\x9b\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\n]\xe5Qwh\xf\0 \0\x31\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0)
 statusBar=true
 titleTemplate={Filename With Ext}
 toolBar=true
