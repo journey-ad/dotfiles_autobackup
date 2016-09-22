@@ -136,13 +136,13 @@ presets="@Variant(\0\0\0\b\0\0\0\x1\0\0\0\x16\0<\0L\0\x61\0s\0t\0 \0U\0s\0\x65\0
 preview=false
 
 [Format]
-archive=tgz arj zip tar gz rar
-audio=snd flac mp+ mp3 ogg aif au wav asx wma rmi mp2 mpp mid mpc
-avi=flv mkv rm asf avi divx vob wmv vfw
-mpeg=m4a m1v mp4 mpg m2v mts m1s m2ts mpeg mpe mpm mpa
-ps=pdf eps ps epsf ai
-qt=mov 3g2 qt 3gp 3gp2
-text=ini cc xmp css c cpp c++ pas h js php txt
+archive=tar rar zip gz tgz arj
+audio=mpc snd mpp mid ogg mp3 mp+ aif wav rmi mp2 wma asx flac au
+avi=flv mkv asf rm vob vfw divx avi wmv
+mpeg=mpm m4a mts m1s mpeg m2v mpe mpg mpa mp4 m2ts m1v
+ps=ps epsf pdf ai eps
+qt=3g2 3gp 3gp2 mov qt
+text=ini h txt php js cpp c++ pas css xmp cc c
 
 [%General]
 allFormats=false
@@ -311,7 +311,7 @@ History=/home/jad/
 OpenWith=@Invalid()
 OpenWithName=@Invalid()
 PathBrowser=/home/jad/
-RecentFiles=/home/jad/Pictures/58995100_p0_waifu2x_art_noise3_scale_tta_1.png, /home/jad/Pictures/59000990_p0_waifu2x_art_noise0_scale_tta_1.png, /home/jad/Downloads/ARTWORKS-20-2.JPG, /home/jad/Desktop/35b5879b-c997-4d25-cd82-9cf655daa515.png, /home/jad/Desktop/59000990_p0.jpg, /home/jad/html/demo/1.png, /home/jad/html/demo/58041585_p0.jpg, /home/jad/html/demo/58024151_p0.jpg, /home/jad/html/demo/58415145_p0_master1200.jpg, /home/jad/html/demo/52214602_p0.png, /home/jad/Pictures/58415145_p0_master1200.jpg, /home/jad/Pictures/04297bc5-29da-4eaa-ce74-c6da5abb005d.png, /home/jad/.cache/.fr-9jhYoQ/36A.jpg, /home/jad/.cache/.fr-lcta5j/24A.jpg, /home/jad/.cache/.fr-m8BJK3/19A.jpg, /run/media/jad/BFB1-7967/\x84dd\x5e95\x8bc1\x4ef6\x7167\x526f\x672c.jpg, /run/media/jad/E/menu/pictures/[SumiSora&CASO][kimiuso][BDRip][07][x264_2flac](148A8742).mkv_20160717_120323.937 s2(Y)(noise)(Level1).png, /home/jad/vbox/QQ\x56fe\x7247\x32\x30\x31\x36\x30\x39\x32\x30\x31\x33\x32\x30\x35\x33.jpg, /usr/share/nginx/html/test/00000001.jpg, /home/jad/QQ\x56fe\x7247\x32\x30\x31\x36\x30\x39\x31\x39\x31\x33\x34\x32\x30\x39.jpg
+RecentFiles=/home/jad/Pictures/58746422_p0.png, /home/jad/Pictures/\x9009\x533a_003.png, /home/jad/Pictures/526821-404-error-funny-girlfriend-typography.jpg, /home/jad/Pictures/5832271+_df2393566c3f11ed86ed6d9f2aada9d0.jpg, /home/jad/Pictures/Here+s+2+more+_dca07af9df8ef1a8b03a173e50fc96b8.png, /home/jad/Pictures/58024151_p0.jpg, /home/jad/Pictures/\x83dc\x5355_001.png, /home/jad/Pictures/58995100_p0_waifu2x_art_noise3_scale_tta_1.png, /home/jad/Pictures/59000990_p0_waifu2x_art_noise0_scale_tta_1.png, /home/jad/Downloads/ARTWORKS-20-2.JPG, /home/jad/Desktop/35b5879b-c997-4d25-cd82-9cf655daa515.png, /home/jad/Desktop/59000990_p0.jpg, /home/jad/html/demo/1.png, /home/jad/html/demo/58041585_p0.jpg, /home/jad/html/demo/58024151_p0.jpg, /home/jad/html/demo/58415145_p0_master1200.jpg, /home/jad/html/demo/52214602_p0.png, /home/jad/Pictures/58415145_p0_master1200.jpg, /home/jad/Pictures/04297bc5-29da-4eaa-ce74-c6da5abb005d.png, /home/jad/.cache/.fr-9jhYoQ/36A.jpg
 customPath=
 dbFlag=0
 dbFolder=
