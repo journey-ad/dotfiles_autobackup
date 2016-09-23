@@ -136,13 +136,13 @@ presets="@Variant(\0\0\0\b\0\0\0\x1\0\0\0\x16\0<\0L\0\x61\0s\0t\0 \0U\0s\0\x65\0
 preview=false
 
 [Format]
-archive=zip gz tgz arj tar rar
-audio=wav aif snd wma mp2 asx rmi mp+ au mpc flac mid mpp ogg mp3
-avi=vob flv rm wmv avi divx mkv vfw asf
-mpeg=m1v mpg m2v m2ts mpe mpeg mp4 mpm mpa m4a m1s mts
-ps=pdf ps ai eps epsf
-qt=qt 3gp2 mov 3gp 3g2
-text=php c xmp h c++ txt cc pas ini js cpp css
+archive=zip gz tgz tar arj rar
+audio=mpc asx wma mp3 aif wav mid rmi mpp mp2 mp+ ogg snd au flac
+avi=flv avi divx vfw vob rm asf mkv wmv
+mpeg=mp4 mpeg m2ts m1v mpm mpa m2v m4a mpg mts mpe m1s
+ps=ai epsf ps pdf eps
+qt=3gp2 3gp mov 3g2 qt
+text=css cc pas ini js c h xmp txt php c++ cpp
 
 [%General]
 allFormats=false
@@ -311,19 +311,19 @@ History=/home/jad/
 OpenWith=@Invalid()
 OpenWithName=@Invalid()
 PathBrowser=/home/jad/
-RecentFiles=/home/jad/Desktop/58351244_p0.jpg, /home/jad/Desktop/57471560_p0.jpg, /home/jad/Desktop/57135558_p0.jpg, /home/jad/Desktop/56278672_p0_waifu2x_art_noise1_scale_tta_1.png, /home/jad/Pictures/Wallpapers/22.png, /run/media/jad/E/menu/pictures/timg.jpg, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x4f4d\x56fe\x56fe\x50cf.jpg, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x6587\x4ef6\x5939/[ROAME][20150125][144241][0008][281547].jpg, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x6587\x4ef6\x5939/ANIME-PICTURES.NET_-_448854-1920x1080-hyouka-kyoto+animation-chitanda+eru-oreki+houtarou-ibara+mayaka-fukube+satoshi (1).png, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x6587\x4ef6\x5939/\x85b0\x32.png, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x6587\x4ef6\x5939/\x85b0\x31.png, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x6587\x4ef6\x5939/chino2.png, /run/media/jad/E/menu/pictures/yande.re 212187 chitanda_eru fukube_satoshi hyouka ibara_mayaka kitamura_emi oreki_houtarou seifuku.jpg, /run/media/jad/E/menu/pictures/QQ\x622a\x56fe\x32\x30\x31\x36\x30\x33\x32\x39\x31\x33\x32\x30\x32\x36.png, /run/media/jad/E/menu/pictures/Konachan.com - 162881 black_hair blush breasts cleavage dengeki_moeoh kagome long_hair original ponytail see_through water wet.png, /run/media/jad/E/menu/pictures/kaori_miyazono__jcg_072__by_eljoeydesigns-d8jd4lt.jpg, /run/media/jad/E/menu/pictures/1432715866974124(RGB)(noise)(Level2).png, /run/media/jad/E/menu/pictures/56520068_p0(Y)(noise)(Level1).png, /run/media/jad/E/menu/pictures/44788805(RGB)(noise_scale)(Level1)(x2.000000).png, /run/media/jad/E/menu/\x80cc\x666f.png
+RecentFiles=/home/jad/Pictures/2016-09-23 17-21-46 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Desktop/58351244_p0.jpg, /home/jad/Desktop/57471560_p0.jpg, /home/jad/Desktop/57135558_p0.jpg, /home/jad/Desktop/56278672_p0_waifu2x_art_noise1_scale_tta_1.png, /home/jad/Pictures/Wallpapers/22.png, /run/media/jad/E/menu/pictures/timg.jpg, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x4f4d\x56fe\x56fe\x50cf.jpg, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x6587\x4ef6\x5939/[ROAME][20150125][144241][0008][281547].jpg, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x6587\x4ef6\x5939/ANIME-PICTURES.NET_-_448854-1920x1080-hyouka-kyoto+animation-chitanda+eru-oreki+houtarou-ibara+mayaka-fukube+satoshi (1).png, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x6587\x4ef6\x5939/\x85b0\x32.png, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x6587\x4ef6\x5939/\x85b0\x31.png, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x6587\x4ef6\x5939/chino2.png, /run/media/jad/E/menu/pictures/yande.re 212187 chitanda_eru fukube_satoshi hyouka ibara_mayaka kitamura_emi oreki_houtarou seifuku.jpg, /run/media/jad/E/menu/pictures/QQ\x622a\x56fe\x32\x30\x31\x36\x30\x33\x32\x39\x31\x33\x32\x30\x32\x36.png, /run/media/jad/E/menu/pictures/Konachan.com - 162881 black_hair blush breasts cleavage dengeki_moeoh kagome long_hair original ponytail see_through water wet.png, /run/media/jad/E/menu/pictures/kaori_miyazono__jcg_072__by_eljoeydesigns-d8jd4lt.jpg, /run/media/jad/E/menu/pictures/1432715866974124(RGB)(noise)(Level2).png, /run/media/jad/E/menu/pictures/56520068_p0(Y)(noise)(Level1).png, /run/media/jad/E/menu/pictures/44788805(RGB)(noise_scale)(Level1)(x2.000000).png
 customPath=
 dbFlag=0
 dbFolder=
 dbThumbFlag=3
 dbThumbFolder=
-geom=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\0\xcc\0\0\0|\0\0\x6\x99\0\0\x4\x37\0\0\0\xcc\0\0\0\xa0\0\0\x6\x99\0\0\x4\x37\0\0\0\0\0\0\0\0\a\x80)
+geom=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\0S\0\0\0\xc2\0\0\x6 \0\0\x4}\0\0\0S\0\0\0\xe6\0\0\x6 \0\0\x4}\0\0\0\0\0\0\0\0\a\x80)
 language=zh
 oneInstance=false
 otherFlag=0
 otherFolder=
 session=@Invalid()
-sessionIdx=-1
+sessionIdx=0
 sessionSave=false
 shortcut=default.keys
 singleView=false
