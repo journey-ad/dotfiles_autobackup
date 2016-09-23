@@ -136,13 +136,13 @@ presets="@Variant(\0\0\0\b\0\0\0\x1\0\0\0\x16\0<\0L\0\x61\0s\0t\0 \0U\0s\0\x65\0
 preview=false
 
 [Format]
-archive=tar gz tgz zip arj rar
-audio=wma snd ogg asx wav aif mpp mpc mp3 mp2 au rmi mid mp+ flac
-avi=avi vob mkv wmv asf divx vfw flv rm
-mpeg=m2ts mpg mpa m1v m2v mpe mts m4a mpm mpeg m1s mp4
-ps=eps ai epsf pdf ps
-qt=mov 3gp 3g2 3gp2 qt
-text=txt php c++ h xmp cc js ini css c cpp pas
+archive=zip arj tar rar tgz gz
+audio=ogg asx aif wma snd au mp2 mpc mpp mp3 rmi wav mp+ flac mid
+avi=rm wmv flv divx asf vfw avi mkv vob
+mpeg=mp4 m1s mts m1v mpg mpm mpa mpe m2v m2ts mpeg m4a
+ps=epsf ps eps ai pdf
+qt=3g2 qt mov 3gp2 3gp
+text=h pas xmp ini js c cpp txt cc c++ css php
 
 [%General]
 allFormats=false
@@ -311,13 +311,13 @@ History=/home/jad/
 OpenWith=@Invalid()
 OpenWithName=@Invalid()
 PathBrowser=/home/jad/
-RecentFiles=/home/jad/Calibre \x4e66\x5e93/sagaraZong/Bian Tai Wang Zi Yu Bu Xiao Mao . 5 (132)/cover.jpg, /home/jad/Pictures/2016-09-23 17-21-46 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Desktop/58351244_p0.jpg, /home/jad/Desktop/57471560_p0.jpg, /home/jad/Desktop/57135558_p0.jpg, /home/jad/Desktop/56278672_p0_waifu2x_art_noise1_scale_tta_1.png, /home/jad/Pictures/Wallpapers/22.png, /run/media/jad/E/menu/pictures/timg.jpg, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x4f4d\x56fe\x56fe\x50cf.jpg, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x6587\x4ef6\x5939/[ROAME][20150125][144241][0008][281547].jpg, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x6587\x4ef6\x5939/ANIME-PICTURES.NET_-_448854-1920x1080-hyouka-kyoto+animation-chitanda+eru-oreki+houtarou-ibara+mayaka-fukube+satoshi (1).png, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x6587\x4ef6\x5939/\x85b0\x32.png, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x6587\x4ef6\x5939/\x85b0\x31.png, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x6587\x4ef6\x5939/chino2.png, /run/media/jad/E/menu/pictures/yande.re 212187 chitanda_eru fukube_satoshi hyouka ibara_mayaka kitamura_emi oreki_houtarou seifuku.jpg, /run/media/jad/E/menu/pictures/QQ\x622a\x56fe\x32\x30\x31\x36\x30\x33\x32\x39\x31\x33\x32\x30\x32\x36.png, /run/media/jad/E/menu/pictures/Konachan.com - 162881 black_hair blush breasts cleavage dengeki_moeoh kagome long_hair original ponytail see_through water wet.png, /run/media/jad/E/menu/pictures/kaori_miyazono__jcg_072__by_eljoeydesigns-d8jd4lt.jpg, /run/media/jad/E/menu/pictures/1432715866974124(RGB)(noise)(Level2).png, /run/media/jad/E/menu/pictures/56520068_p0(Y)(noise)(Level1).png
+RecentFiles=/run/media/jad/E/menu/pictures/sp160803_193004.png, /home/jad/Calibre \x4e66\x5e93/sagaraZong/Bian Tai Wang Zi Yu Bu Xiao Mao . 5 (132)/cover.jpg, /home/jad/Pictures/2016-09-23 17-21-46 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Desktop/58351244_p0.jpg, /home/jad/Desktop/57471560_p0.jpg, /home/jad/Desktop/57135558_p0.jpg, /home/jad/Desktop/56278672_p0_waifu2x_art_noise1_scale_tta_1.png, /home/jad/Pictures/Wallpapers/22.png, /run/media/jad/E/menu/pictures/timg.jpg, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x4f4d\x56fe\x56fe\x50cf.jpg, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x6587\x4ef6\x5939/[ROAME][20150125][144241][0008][281547].jpg, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x6587\x4ef6\x5939/ANIME-PICTURES.NET_-_448854-1920x1080-hyouka-kyoto+animation-chitanda+eru-oreki+houtarou-ibara+mayaka-fukube+satoshi (1).png, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x6587\x4ef6\x5939/\x85b0\x32.png, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x6587\x4ef6\x5939/\x85b0\x31.png, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x6587\x4ef6\x5939/chino2.png, /run/media/jad/E/menu/pictures/yande.re 212187 chitanda_eru fukube_satoshi hyouka ibara_mayaka kitamura_emi oreki_houtarou seifuku.jpg, /run/media/jad/E/menu/pictures/QQ\x622a\x56fe\x32\x30\x31\x36\x30\x33\x32\x39\x31\x33\x32\x30\x32\x36.png, /run/media/jad/E/menu/pictures/Konachan.com - 162881 black_hair blush breasts cleavage dengeki_moeoh kagome long_hair original ponytail see_through water wet.png, /run/media/jad/E/menu/pictures/kaori_miyazono__jcg_072__by_eljoeydesigns-d8jd4lt.jpg, /run/media/jad/E/menu/pictures/1432715866974124(RGB)(noise)(Level2).png
 customPath=
 dbFlag=0
 dbFolder=
 dbThumbFlag=3
 dbThumbFolder=
-geom=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\0S\0\0\0|\0\0\x6 \0\0\x4\x37\0\0\0S\0\0\0\xa0\0\0\x6 \0\0\x4\x37\0\0\0\0\0\0\0\0\a\x80)
+geom=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\x1#\0\0\0\x66\0\0\x6\xf0\0\0\x4!\0\0\x1#\0\0\0\x8a\0\0\x6\xf0\0\0\x4!\0\0\0\0\0\0\0\0\a\x80)
 language=zh
 oneInstance=false
 otherFlag=0
