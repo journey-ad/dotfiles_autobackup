@@ -136,13 +136,13 @@ presets="@Variant(\0\0\0\b\0\0\0\x1\0\0\0\x16\0<\0L\0\x61\0s\0t\0 \0U\0s\0\x65\0
 preview=false
 
 [Format]
-archive=zip rar arj tgz gz tar
-audio=aif mpc wav mp+ mp3 asx flac snd ogg rmi au mpp mp2 mid wma
-avi=divx asf rm avi wmv mkv vob flv vfw
-mpeg=m2v m4a m1v mpeg mpg m2ts mpe mpa mts mp4 mpm m1s
-ps=ps ai eps pdf epsf
-qt=3gp mov qt 3gp2 3g2
-text=js c pas h css php ini txt c++ cpp xmp cc
+archive=rar tar zip arj gz tgz
+audio=mpp mp+ wma snd aif mid ogg mp3 flac au mp2 wav mpc asx rmi
+avi=wmv vfw divx mkv flv vob asf avi rm
+mpeg=m2v m2ts mpg mp4 mpm mpe mpa m4a m1s mts m1v mpeg
+ps=ai pdf ps epsf eps
+qt=mov 3gp 3g2 3gp2 qt
+text=xmp cc js ini c++ css h txt cpp pas php c
 
 [%General]
 allFormats=false
@@ -246,8 +246,8 @@ geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\x2\x9d\0\0\x1\x38\0\0\x4h\0\0\x
 tabs=65535
 
 [ResizeDlg]
-geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\x2\xe3\0\0\0\xf3\0\0\x3\xf0\0\0\x3\x14\0\0\x2\xe3\0\0\x1\x17\0\0\x3\xf0\0\0\x3\x14\0\0\0\0\0\0\0\0\a\x80)
-presets=@Variant(\0\0\0\b\0\0\0\x1\0\0\0\x16\0<\0L\0\x61\0s\0t\0 \0U\0s\0\x65\0\x64\0>\0\0\0\f\0\0\0\x33\0\0\0\x1\0\0\0\x90\0\0\0\xc0\0\0\0\0\0@\0\0\0\0\0\0\0@\x5\\(\xf5\xc2\x8f\\@R\0\0\0\0\0\0\0\0\0\x1\0\0\0\0\x1\0)
+geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\x3t\0\0\x1\r\0\0\x4\x81\0\0\x3.\0\0\x3t\0\0\x1\x31\0\0\x4\x81\0\0\x3.\0\0\0\0\0\0\0\0\a\x80)
+presets=@Variant(\0\0\0\b\0\0\0\x1\0\0\0\x16\0<\0L\0\x61\0s\0t\0 \0U\0s\0\x65\0\x64\0>\0\0\0\f\0\0\0\x33\0\0\0\x1\0\0\x4\x30\0\0\x5\xbe\x1\0\0\0\0@\f\x8f\\(\xf5\xc2\x8f@\x13\x99\x99\x99\x99\x99\x9a@r\xc0\0\0\0\0\0\0\0\0\x1\0\0\0\0\x1\0)
 
 [Save]
 BMPCompress=false
@@ -311,13 +311,13 @@ History=/home/jad/
 OpenWith=@Invalid()
 OpenWithName=@Invalid()
 PathBrowser=/home/jad/
-RecentFiles=/home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/003.png, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/216.jpg, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/001.jpg, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/006.jpg, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/005.jpg, "/run/user/1000/gvfs/mtp:host=%5Busb%3A003%2C004%5D/\x624b\x673a\x5b58\x50a8/EhViewer/download/934573-(COMIC1\x2606\x31\x30) [CARAMEL CRUNCH! (Rikatan)] Chimahame-tai!  \x5c0f\x5154\x961f! (Gochuumon wa Usagi desu ka) [Chinese] [CE\x5bb6\x65cf\x793e]/00000006.jpg", /home/jad/Downloads/DPlayer.png, /home/jad/bg_ss00.png, /run/media/jad/E/menu/pictures/sp160803_193004.png, /home/jad/Calibre \x4e66\x5e93/sagaraZong/Bian Tai Wang Zi Yu Bu Xiao Mao . 5 (132)/cover.jpg, /home/jad/Pictures/2016-09-23 17-21-46 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Desktop/58351244_p0.jpg, /home/jad/Desktop/57471560_p0.jpg, /home/jad/Desktop/57135558_p0.jpg, /home/jad/Desktop/56278672_p0_waifu2x_art_noise1_scale_tta_1.png, /home/jad/Pictures/Wallpapers/22.png, /run/media/jad/E/menu/pictures/timg.jpg, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x4f4d\x56fe\x56fe\x50cf.jpg, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x6587\x4ef6\x5939/[ROAME][20150125][144241][0008][281547].jpg, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x6587\x4ef6\x5939/ANIME-PICTURES.NET_-_448854-1920x1080-hyouka-kyoto+animation-chitanda+eru-oreki+houtarou-ibara+mayaka-fukube+satoshi (1).png
+RecentFiles=/home/jad/Desktop/Screenshot_2016-09-24-17-07-55.png, /home/jad/900223-00000015.jpeg, "/run/user/1000/gvfs/mtp:host=%5Busb%3A003%2C007%5D/\x624b\x673a\x5b58\x50a8/EhViewer/image/900223-00000015.jpeg", /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/003.png, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/216.jpg, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/001.jpg, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/006.jpg, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/005.jpg, "/run/user/1000/gvfs/mtp:host=%5Busb%3A003%2C004%5D/\x624b\x673a\x5b58\x50a8/EhViewer/download/934573-(COMIC1\x2606\x31\x30) [CARAMEL CRUNCH! (Rikatan)] Chimahame-tai!  \x5c0f\x5154\x961f! (Gochuumon wa Usagi desu ka) [Chinese] [CE\x5bb6\x65cf\x793e]/00000006.jpg", /home/jad/Downloads/DPlayer.png, /home/jad/bg_ss00.png, /run/media/jad/E/menu/pictures/sp160803_193004.png, /home/jad/Calibre \x4e66\x5e93/sagaraZong/Bian Tai Wang Zi Yu Bu Xiao Mao . 5 (132)/cover.jpg, /home/jad/Pictures/2016-09-23 17-21-46 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Desktop/58351244_p0.jpg, /home/jad/Desktop/57471560_p0.jpg, /home/jad/Desktop/57135558_p0.jpg, /home/jad/Desktop/56278672_p0_waifu2x_art_noise1_scale_tta_1.png, /home/jad/Pictures/Wallpapers/22.png, /run/media/jad/E/menu/pictures/timg.jpg
 customPath=
 dbFlag=0
 dbFolder=
 dbThumbFlag=3
 dbThumbFolder=
-geom=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\x1#\0\0\0\x66\0\0\x6\xf0\0\0\x4!\0\0\x1#\0\0\0\x8a\0\0\x6\xf0\0\0\x4!\0\0\0\0\0\0\0\0\a\x80)
+geom=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\0\xd5\0\0\0[\0\0\x6\xf3\0\0\x4\x16\0\0\0\xd5\0\0\0\x7f\0\0\x6\xf3\0\0\x4\x16\0\0\0\0\0\0\0\0\a\x80)
 language=zh
 oneInstance=false
 otherFlag=0
@@ -382,11 +382,11 @@ rButtonCtrlAction=-1
 ratio=0
 readAhead=true
 resetXY=false
-saveFolder=/home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/
+saveFolder=/home/jad/Desktop/
 saveUseOrg=false
 slideDelay=2000
 slideDir=0
-state=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\0\0\0\x5\xce\0\0\x3\x10\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\n]\xe5Qwh\xf\0 \0\x31\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0)
+state=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\0\0\0\x6\x1f\0\0\x3\x10\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\n]\xe5Qwh\xf\0 \0\x31\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0)
 statusBar=true
 titleTemplate={Filename With Ext}
 toolBar=true
