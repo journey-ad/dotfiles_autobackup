@@ -136,13 +136,13 @@ presets="@Variant(\0\0\0\b\0\0\0\x1\0\0\0\x16\0<\0L\0\x61\0s\0t\0 \0U\0s\0\x65\0
 preview=false
 
 [Format]
-archive=tgz rar tar arj zip gz
-audio=mpc wav wma mid asx mp+ rmi aif mp2 snd flac au mpp ogg mp3
-avi=avi asf vob rm divx flv vfw mkv wmv
-mpeg=mpg mp4 mpm m2v m4a mpe m1s m2ts mts m1v mpa mpeg
-ps=ps epsf eps ai pdf
-qt=qt 3gp 3g2 mov 3gp2
-text=ini c pas php xmp cc h js css c++ txt cpp
+archive=zip rar arj tgz gz tar
+audio=aif mpc wav mp+ mp3 asx flac snd ogg rmi au mpp mp2 mid wma
+avi=divx asf rm avi wmv mkv vob flv vfw
+mpeg=m2v m4a m1v mpeg mpg m2ts mpe mpa mts mp4 mpm m1s
+ps=ps ai eps pdf epsf
+qt=3gp mov qt 3gp2 3g2
+text=js c pas h css php ini txt c++ cpp xmp cc
 
 [%General]
 allFormats=false
@@ -311,7 +311,7 @@ History=/home/jad/
 OpenWith=@Invalid()
 OpenWithName=@Invalid()
 PathBrowser=/home/jad/
-RecentFiles="/run/user/1000/gvfs/mtp:host=%5Busb%3A003%2C004%5D/\x624b\x673a\x5b58\x50a8/EhViewer/download/934573-(COMIC1\x2606\x31\x30) [CARAMEL CRUNCH! (Rikatan)] Chimahame-tai!  \x5c0f\x5154\x961f! (Gochuumon wa Usagi desu ka) [Chinese] [CE\x5bb6\x65cf\x793e]/00000006.jpg", /home/jad/Downloads/DPlayer.png, /home/jad/bg_ss00.png, /run/media/jad/E/menu/pictures/sp160803_193004.png, /home/jad/Calibre \x4e66\x5e93/sagaraZong/Bian Tai Wang Zi Yu Bu Xiao Mao . 5 (132)/cover.jpg, /home/jad/Pictures/2016-09-23 17-21-46 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Desktop/58351244_p0.jpg, /home/jad/Desktop/57471560_p0.jpg, /home/jad/Desktop/57135558_p0.jpg, /home/jad/Desktop/56278672_p0_waifu2x_art_noise1_scale_tta_1.png, /home/jad/Pictures/Wallpapers/22.png, /run/media/jad/E/menu/pictures/timg.jpg, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x4f4d\x56fe\x56fe\x50cf.jpg, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x6587\x4ef6\x5939/[ROAME][20150125][144241][0008][281547].jpg, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x6587\x4ef6\x5939/ANIME-PICTURES.NET_-_448854-1920x1080-hyouka-kyoto+animation-chitanda+eru-oreki+houtarou-ibara+mayaka-fukube+satoshi (1).png, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x6587\x4ef6\x5939/\x85b0\x32.png, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x6587\x4ef6\x5939/\x85b0\x31.png, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x6587\x4ef6\x5939/chino2.png, /run/media/jad/E/menu/pictures/yande.re 212187 chitanda_eru fukube_satoshi hyouka ibara_mayaka kitamura_emi oreki_houtarou seifuku.jpg, /run/media/jad/E/menu/pictures/QQ\x622a\x56fe\x32\x30\x31\x36\x30\x33\x32\x39\x31\x33\x32\x30\x32\x36.png
+RecentFiles=/home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/003.png, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/216.jpg, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/001.jpg, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/006.jpg, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/005.jpg, "/run/user/1000/gvfs/mtp:host=%5Busb%3A003%2C004%5D/\x624b\x673a\x5b58\x50a8/EhViewer/download/934573-(COMIC1\x2606\x31\x30) [CARAMEL CRUNCH! (Rikatan)] Chimahame-tai!  \x5c0f\x5154\x961f! (Gochuumon wa Usagi desu ka) [Chinese] [CE\x5bb6\x65cf\x793e]/00000006.jpg", /home/jad/Downloads/DPlayer.png, /home/jad/bg_ss00.png, /run/media/jad/E/menu/pictures/sp160803_193004.png, /home/jad/Calibre \x4e66\x5e93/sagaraZong/Bian Tai Wang Zi Yu Bu Xiao Mao . 5 (132)/cover.jpg, /home/jad/Pictures/2016-09-23 17-21-46 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Desktop/58351244_p0.jpg, /home/jad/Desktop/57471560_p0.jpg, /home/jad/Desktop/57135558_p0.jpg, /home/jad/Desktop/56278672_p0_waifu2x_art_noise1_scale_tta_1.png, /home/jad/Pictures/Wallpapers/22.png, /run/media/jad/E/menu/pictures/timg.jpg, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x4f4d\x56fe\x56fe\x50cf.jpg, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x6587\x4ef6\x5939/[ROAME][20150125][144241][0008][281547].jpg, /run/media/jad/E/menu/pictures/\x65b0\x5efa\x6587\x4ef6\x5939/ANIME-PICTURES.NET_-_448854-1920x1080-hyouka-kyoto+animation-chitanda+eru-oreki+houtarou-ibara+mayaka-fukube+satoshi (1).png
 customPath=
 dbFlag=0
 dbFolder=
@@ -345,7 +345,7 @@ checkBoardSize=8
 checkerColor1=255 255 255 255
 checkerColor2=240 240 240 255
 clearColor=0 0 0
-defaultFormat=@ByteArray(jpeg)
+defaultFormat=@ByteArray(png)
 fit=1
 full2HideSB=true
 full2HideTB=true
@@ -382,7 +382,7 @@ rButtonCtrlAction=-1
 ratio=0
 readAhead=true
 resetXY=false
-saveFolder=/home/jad/html/demo/[\x4e03\x5bae\x3064\x3050\x5b9f] \x3042\x3044\x307e\x3044\x307e\x3059\x304f [\x4e2d\x56fd\x7ffb\x8a33]/
+saveFolder=/home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/
 saveUseOrg=false
 slideDelay=2000
 slideDir=0
@@ -412,4 +412,4 @@ xmpLabel=false
 xmpRating=false
 
 [formats]
-geometry2=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\x2\x8b\0\0\0\xcf\0\0\x5\x1b\0\0\x3J\0\0\x2\x8b\0\0\0\xf3\0\0\x5\x1b\0\0\x3J\0\0\0\0\0\0\0\0\a\x80)
+geometry2=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\x2\xc2\0\0\x1\x6\0\0\x5R\0\0\x3\x81\0\0\x2\xc2\0\0\x1*\0\0\x5R\0\0\x3\x81\0\0\0\0\0\0\0\0\a\x80)
