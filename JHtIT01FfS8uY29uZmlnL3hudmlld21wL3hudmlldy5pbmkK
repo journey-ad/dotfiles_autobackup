@@ -136,13 +136,13 @@ presets="@Variant(\0\0\0\b\0\0\0\x1\0\0\0\x16\0<\0L\0\x61\0s\0t\0 \0U\0s\0\x65\0
 preview=false
 
 [Format]
-archive=tgz arj rar zip gz tar
-audio=asx snd mp2 flac mp+ mid au mp3 mpc aif wma wav rmi mpp ogg
-avi=asf mkv rm vfw wmv avi divx vob flv
-mpeg=mpa mpg mpm mts m2v m1s m2ts m4a mpe mp4 mpeg m1v
-ps=eps ai pdf ps epsf
-qt=qt mov 3gp 3gp2 3g2
-text=h cpp js txt php c ini xmp pas c++ cc css
+archive=gz arj tgz tar rar zip
+audio=ogg mpc mp3 mp2 wav rmi aif wma au flac snd mpp asx mp+ mid
+avi=rm asf divx mkv wmv vob vfw avi flv
+mpeg=mp4 m4a mpg mpe mpeg mpm m1v m2ts m1s mts m2v mpa
+ps=eps epsf ai pdf ps
+qt=3g2 mov 3gp2 3gp qt
+text=pas c h ini css xmp c++ js txt cc cpp php
 
 [%General]
 allFormats=false
@@ -311,13 +311,13 @@ History=/home/jad/
 OpenWith=@Invalid()
 OpenWithName=@Invalid()
 PathBrowser=/home/jad/
-RecentFiles=/home/jad/Desktop/567430_1474208696_7796.jpg.m_waifu2x_art_noise0_scale_tta_1_waifu2x_art_noise0_scale_tta_1.png, /home/jad/Desktop/567430_1474208696_7796.jpg.m_waifu2x_art_noise0_scale_tta_1.png, /home/jad/Desktop/f1d58ba7-6d16-4563-c527-7e3e59a6324d.png, /home/jad/Desktop/Screenshot_2016-09-24-17-07-59.png, /home/jad/Desktop/Screenshot_2016-09-24-17-07-55.png, /home/jad/900223-00000015.jpeg, "/run/user/1000/gvfs/mtp:host=%5Busb%3A003%2C007%5D/\x624b\x673a\x5b58\x50a8/EhViewer/image/900223-00000015.jpeg", /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/003.png, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/216.jpg, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/001.jpg, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/006.jpg, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/005.jpg, "/run/user/1000/gvfs/mtp:host=%5Busb%3A003%2C004%5D/\x624b\x673a\x5b58\x50a8/EhViewer/download/934573-(COMIC1\x2606\x31\x30) [CARAMEL CRUNCH! (Rikatan)] Chimahame-tai!  \x5c0f\x5154\x961f! (Gochuumon wa Usagi desu ka) [Chinese] [CE\x5bb6\x65cf\x793e]/00000006.jpg", /home/jad/Downloads/DPlayer.png, /home/jad/bg_ss00.png, /run/media/jad/E/menu/pictures/sp160803_193004.png, /home/jad/Calibre \x4e66\x5e93/sagaraZong/Bian Tai Wang Zi Yu Bu Xiao Mao . 5 (132)/cover.jpg, /home/jad/Pictures/2016-09-23 17-21-46 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Desktop/58351244_p0.jpg, /home/jad/Desktop/57471560_p0.jpg
+RecentFiles=/home/jad/Desktop/567430_1474208696_7796.jpg.m.jpg, /home/jad/Desktop/Screenshot_2016-09-24-17-07-59.png, /home/jad/Desktop/Screenshot_2016-09-24-17-07-55.png, /home/jad/900223-00000015.jpeg, "/run/user/1000/gvfs/mtp:host=%5Busb%3A003%2C007%5D/\x624b\x673a\x5b58\x50a8/EhViewer/image/900223-00000015.jpeg", /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/003.png, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/216.jpg, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/001.jpg, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/006.jpg, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/005.jpg, "/run/user/1000/gvfs/mtp:host=%5Busb%3A003%2C004%5D/\x624b\x673a\x5b58\x50a8/EhViewer/download/934573-(COMIC1\x2606\x31\x30) [CARAMEL CRUNCH! (Rikatan)] Chimahame-tai!  \x5c0f\x5154\x961f! (Gochuumon wa Usagi desu ka) [Chinese] [CE\x5bb6\x65cf\x793e]/00000006.jpg", /home/jad/Downloads/DPlayer.png, /home/jad/bg_ss00.png, /run/media/jad/E/menu/pictures/sp160803_193004.png, /home/jad/Calibre \x4e66\x5e93/sagaraZong/Bian Tai Wang Zi Yu Bu Xiao Mao . 5 (132)/cover.jpg, /home/jad/Pictures/2016-09-23 17-21-46 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Desktop/58351244_p0.jpg, /home/jad/Desktop/57471560_p0.jpg, /home/jad/Desktop/57135558_p0.jpg, /home/jad/Desktop/56278672_p0_waifu2x_art_noise1_scale_tta_1.png
 customPath=
 dbFlag=0
 dbFolder=
 dbThumbFlag=3
 dbThumbFolder=
-geom=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\0\xd5\0\0\0[\0\0\x6\xf3\0\0\x4\x16\0\0\0\xd5\0\0\0\x7f\0\0\x6\xf3\0\0\x4\x16\0\0\0\0\0\0\0\0\a\x80)
+geom=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\0\xc9\0\0\x1\xb6\0\0\x6\xe7\0\0\x5q\0\0\0\xc9\0\0\x1\xda\0\0\x6\xe7\0\0\x5q\0\0\0\0\0\0\0\0\a\x80)
 language=zh
 oneInstance=false
 otherFlag=0
