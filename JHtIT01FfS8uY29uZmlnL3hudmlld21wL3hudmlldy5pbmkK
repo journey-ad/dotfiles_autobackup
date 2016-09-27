@@ -136,13 +136,13 @@ presets="@Variant(\0\0\0\b\0\0\0\x1\0\0\0\x16\0<\0L\0\x61\0s\0t\0 \0U\0s\0\x65\0
 preview=false
 
 [Format]
-archive=gz tgz rar zip arj tar
-audio=rmi aif mp+ mpp wma asx flac mp2 ogg au mpc mp3 snd wav mid
-avi=flv asf vob avi rm wmv mkv divx vfw
-mpeg=mpm m1v m2v mpg m2ts mpeg m4a mts m1s mpa mp4 mpe
-ps=ps eps pdf ai epsf
-qt=qt 3gp2 3gp 3g2 mov
-text=c c++ js pas php cc h txt ini xmp cpp css
+archive=gz tgz zip rar tar arj
+audio=snd mpc aif wav mp+ mp2 au asx mid mp3 flac ogg wma rmi mpp
+avi=wmv rm vfw flv mkv avi asf vob divx
+mpeg=m2v mpa m1s m1v mts m2ts m4a mpe mpg mpeg mpm mp4
+ps=ai eps pdf ps epsf
+qt=3gp2 3gp 3g2 qt mov
+text=js c++ cc css php ini pas txt xmp c h cpp
 
 [%General]
 allFormats=false
@@ -317,7 +317,7 @@ dbFlag=0
 dbFolder=
 dbThumbFlag=3
 dbThumbFolder=
-geom=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\0\x31\0\0\0\xc4\0\0\x6O\0\0\x4\x7f\0\0\0\x31\0\0\0\xe8\0\0\x6O\0\0\x4\x7f\0\0\0\0\0\0\0\0\a\x80)
+geom=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\x1G\0\0\0G\0\0\ae\0\0\x4\x2\0\0\x1G\0\0\0k\0\0\ae\0\0\x4\x2\0\0\0\0\0\0\0\0\a\x80)
 language=zh
 oneInstance=false
 otherFlag=0
