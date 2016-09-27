@@ -136,13 +136,13 @@ presets="@Variant(\0\0\0\b\0\0\0\x1\0\0\0\x16\0<\0L\0\x61\0s\0t\0 \0U\0s\0\x65\0
 preview=false
 
 [Format]
-archive=rar arj zip tgz gz tar
-audio=mp+ mpc wav wma au snd rmi aif mid mpp ogg mp2 mp3 flac asx
-avi=rm mkv divx vob asf flv vfw avi wmv
-mpeg=mpe m1s mpa mpm m2v m2ts m1v m4a mpeg mts mp4 mpg
-ps=epsf pdf ps eps ai
-qt=3gp 3gp2 qt 3g2 mov
-text=c js css txt cpp cc pas php ini xmp h c++
+archive=gz tgz rar zip arj tar
+audio=rmi aif mp+ mpp wma asx flac mp2 ogg au mpc mp3 snd wav mid
+avi=flv asf vob avi rm wmv mkv divx vfw
+mpeg=mpm m1v m2v mpg m2ts mpeg m4a mts m1s mpa mp4 mpe
+ps=ps eps pdf ai epsf
+qt=qt 3gp2 3gp 3g2 mov
+text=c c++ js pas php cc h txt ini xmp cpp css
 
 [%General]
 allFormats=false
@@ -311,13 +311,13 @@ History=/home/jad/
 OpenWith=@Invalid()
 OpenWithName=@Invalid()
 PathBrowser=/home/jad/
-RecentFiles=/home/jad/Desktop/img63385_d0a2ea9cc791e872.jpg, /run/media/jad/E/menu/pictures/QQ\x622a\x56fe\x32\x30\x31\x35\x31\x31\x30\x31\x30\x30\x34\x30\x34\x38.png, /run/media/jad/E/menu/pictures/QQ\x56fe\x7247\x32\x30\x31\x36\x30\x34\x31\x35\x31\x36\x35\x38\x32\x31.jpg, /home/jad/Desktop/567430_1474208696_7796.jpg.m.jpg, /home/jad/Desktop/Screenshot_2016-09-24-17-07-59.png, /home/jad/Desktop/Screenshot_2016-09-24-17-07-55.png, /home/jad/900223-00000015.jpeg, "/run/user/1000/gvfs/mtp:host=%5Busb%3A003%2C007%5D/\x624b\x673a\x5b58\x50a8/EhViewer/image/900223-00000015.jpeg", /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/003.png, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/216.jpg, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/001.jpg, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/006.jpg, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/005.jpg, "/run/user/1000/gvfs/mtp:host=%5Busb%3A003%2C004%5D/\x624b\x673a\x5b58\x50a8/EhViewer/download/934573-(COMIC1\x2606\x31\x30) [CARAMEL CRUNCH! (Rikatan)] Chimahame-tai!  \x5c0f\x5154\x961f! (Gochuumon wa Usagi desu ka) [Chinese] [CE\x5bb6\x65cf\x793e]/00000006.jpg", /home/jad/Downloads/DPlayer.png, /home/jad/bg_ss00.png, /run/media/jad/E/menu/pictures/sp160803_193004.png, /home/jad/Calibre \x4e66\x5e93/sagaraZong/Bian Tai Wang Zi Yu Bu Xiao Mao . 5 (132)/cover.jpg, /home/jad/Pictures/2016-09-23 17-21-46 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Desktop/58351244_p0.jpg
+RecentFiles=/home/jad/Desktop/anime-girls-guns-apocalypse-buildings-anime-4709_waifu2x_art_noise3_scale_tta_1.png, /home/jad/Desktop/img63385_d0a2ea9cc791e872.jpg, /run/media/jad/E/menu/pictures/QQ\x622a\x56fe\x32\x30\x31\x35\x31\x31\x30\x31\x30\x30\x34\x30\x34\x38.png, /run/media/jad/E/menu/pictures/QQ\x56fe\x7247\x32\x30\x31\x36\x30\x34\x31\x35\x31\x36\x35\x38\x32\x31.jpg, /home/jad/Desktop/567430_1474208696_7796.jpg.m.jpg, /home/jad/Desktop/Screenshot_2016-09-24-17-07-59.png, /home/jad/Desktop/Screenshot_2016-09-24-17-07-55.png, /home/jad/900223-00000015.jpeg, "/run/user/1000/gvfs/mtp:host=%5Busb%3A003%2C007%5D/\x624b\x673a\x5b58\x50a8/EhViewer/image/900223-00000015.jpeg", /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/003.png, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/216.jpg, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/001.jpg, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/006.jpg, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/005.jpg, "/run/user/1000/gvfs/mtp:host=%5Busb%3A003%2C004%5D/\x624b\x673a\x5b58\x50a8/EhViewer/download/934573-(COMIC1\x2606\x31\x30) [CARAMEL CRUNCH! (Rikatan)] Chimahame-tai!  \x5c0f\x5154\x961f! (Gochuumon wa Usagi desu ka) [Chinese] [CE\x5bb6\x65cf\x793e]/00000006.jpg", /home/jad/Downloads/DPlayer.png, /home/jad/bg_ss00.png, /run/media/jad/E/menu/pictures/sp160803_193004.png, /home/jad/Calibre \x4e66\x5e93/sagaraZong/Bian Tai Wang Zi Yu Bu Xiao Mao . 5 (132)/cover.jpg, /home/jad/Pictures/2016-09-23 17-21-46 \x7684\x5c4f\x5e55\x622a\x56fe.png
 customPath=
 dbFlag=0
 dbFolder=
 dbThumbFlag=3
 dbThumbFolder=
-geom=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\0\xc9\0\0\0|\0\0\x6\xe7\0\0\x4\x37\0\0\0\xc9\0\0\0\xa0\0\0\x6\xe7\0\0\x4\x37\0\0\0\0\0\0\0\0\a\x80)
+geom=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\0\x31\0\0\0\xc4\0\0\x6O\0\0\x4\x7f\0\0\0\x31\0\0\0\xe8\0\0\x6O\0\0\x4\x7f\0\0\0\0\0\0\0\0\a\x80)
 language=zh
 oneInstance=false
 otherFlag=0
