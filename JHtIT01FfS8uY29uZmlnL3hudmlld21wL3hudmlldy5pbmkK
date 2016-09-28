@@ -136,13 +136,13 @@ presets="@Variant(\0\0\0\b\0\0\0\x1\0\0\0\x16\0<\0L\0\x61\0s\0t\0 \0U\0s\0\x65\0
 preview=false
 
 [Format]
-archive=tar zip rar tgz arj gz
-audio=mp2 au asx aif wav mpc mp3 mpp flac mp+ mid ogg wma snd rmi
-avi=rm mkv vfw avi wmv flv divx asf vob
-mpeg=mpm m2v m2ts m1s mts mp4 m1v m4a mpg mpe mpa mpeg
-ps=pdf ai ps eps epsf
-qt=mov 3g2 3gp qt 3gp2
-text=h c++ xmp ini js php css c pas txt cpp cc
+archive=arj gz zip rar tgz tar
+audio=rmi au flac mp2 mpp wav aif mpc wma asx snd ogg mid mp+ mp3
+avi=rm mkv divx vfw vob avi wmv flv asf
+mpeg=mpm mpeg m4a m1s mts m2ts mpa mpe m2v mp4 m1v mpg
+ps=pdf ps ai epsf eps
+qt=3g2 qt 3gp2 3gp mov
+text=h pas js php ini cpp c++ c xmp txt cc css
 
 [%General]
 allFormats=false
@@ -311,7 +311,7 @@ History=/home/jad/
 OpenWith=@Invalid()
 OpenWithName=@Invalid()
 PathBrowser=/home/jad/
-RecentFiles=/home/jad/Pictures/Wallpapers/32.png, /home/jad/Desktop/anime-girls-guns-apocalypse-buildings-anime-4709_waifu2x_art_noise3_scale_tta_1.png, /home/jad/Desktop/img63385_d0a2ea9cc791e872.jpg, /run/media/jad/E/menu/pictures/QQ\x622a\x56fe\x32\x30\x31\x35\x31\x31\x30\x31\x30\x30\x34\x30\x34\x38.png, /run/media/jad/E/menu/pictures/QQ\x56fe\x7247\x32\x30\x31\x36\x30\x34\x31\x35\x31\x36\x35\x38\x32\x31.jpg, /home/jad/Desktop/567430_1474208696_7796.jpg.m.jpg, /home/jad/Desktop/Screenshot_2016-09-24-17-07-59.png, /home/jad/Desktop/Screenshot_2016-09-24-17-07-55.png, /home/jad/900223-00000015.jpeg, "/run/user/1000/gvfs/mtp:host=%5Busb%3A003%2C007%5D/\x624b\x673a\x5b58\x50a8/EhViewer/image/900223-00000015.jpeg", /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/003.png, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/216.jpg, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/001.jpg, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/006.jpg, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/005.jpg, "/run/user/1000/gvfs/mtp:host=%5Busb%3A003%2C004%5D/\x624b\x673a\x5b58\x50a8/EhViewer/download/934573-(COMIC1\x2606\x31\x30) [CARAMEL CRUNCH! (Rikatan)] Chimahame-tai!  \x5c0f\x5154\x961f! (Gochuumon wa Usagi desu ka) [Chinese] [CE\x5bb6\x65cf\x793e]/00000006.jpg", /home/jad/Downloads/DPlayer.png, /home/jad/bg_ss00.png, /run/media/jad/E/menu/pictures/sp160803_193004.png, /home/jad/Calibre \x4e66\x5e93/sagaraZong/Bian Tai Wang Zi Yu Bu Xiao Mao . 5 (132)/cover.jpg
+RecentFiles=/home/jad/LoliLinus-OS Material Design/screenshot.png, /home/jad/Pictures/2016-08-26 11-22-24 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Pictures/\x52a8\x6f2b\x56fe\x5305/\x5909\x614b\x738b\x5b50\x3068\x7b11\x308f\x306a\x3044\x732b\x3002 \x53d8\x6001\x738b\x5b50\x4e0e\x4e0d\x7b11\x732b/\x53d8\x6001\x738b\x5b50\x4e0e\x4e0d\x7b11\x732b\x31\x30\x30\x30\x35.jpg, /home/jad/Pictures/Wallpapers/32.png, /home/jad/Desktop/anime-girls-guns-apocalypse-buildings-anime-4709_waifu2x_art_noise3_scale_tta_1.png, /home/jad/Desktop/img63385_d0a2ea9cc791e872.jpg, /run/media/jad/E/menu/pictures/QQ\x622a\x56fe\x32\x30\x31\x35\x31\x31\x30\x31\x30\x30\x34\x30\x34\x38.png, /run/media/jad/E/menu/pictures/QQ\x56fe\x7247\x32\x30\x31\x36\x30\x34\x31\x35\x31\x36\x35\x38\x32\x31.jpg, /home/jad/Desktop/567430_1474208696_7796.jpg.m.jpg, /home/jad/Desktop/Screenshot_2016-09-24-17-07-59.png, /home/jad/Desktop/Screenshot_2016-09-24-17-07-55.png, /home/jad/900223-00000015.jpeg, "/run/user/1000/gvfs/mtp:host=%5Busb%3A003%2C007%5D/\x624b\x673a\x5b58\x50a8/EhViewer/image/900223-00000015.jpeg", /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/003.png, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/216.jpg, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/001.jpg, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/006.jpg, /home/jad/html/demo/[Seihoukei] Chicchai ga Ippai! [Chinese] [\x58de\x86cb\x6f22\x5316]/005.jpg, "/run/user/1000/gvfs/mtp:host=%5Busb%3A003%2C004%5D/\x624b\x673a\x5b58\x50a8/EhViewer/download/934573-(COMIC1\x2606\x31\x30) [CARAMEL CRUNCH! (Rikatan)] Chimahame-tai!  \x5c0f\x5154\x961f! (Gochuumon wa Usagi desu ka) [Chinese] [CE\x5bb6\x65cf\x793e]/00000006.jpg", /home/jad/Downloads/DPlayer.png
 customPath=
 dbFlag=0
 dbFolder=
