@@ -136,13 +136,13 @@ presets="@Variant(\0\0\0\b\0\0\0\x1\0\0\0\x16\0<\0L\0\x61\0s\0t\0 \0U\0s\0\x65\0
 preview=false
 
 [Format]
-archive=rar zip tar tgz gz arj
-audio=mpc mp+ mpp snd aif mp2 wav mid rmi asx mp3 ogg flac wma au
-avi=vfw mkv divx vob avi rm flv asf wmv
-mpeg=m4a mpe mpa mpeg mts mp4 m1v mpg mpm m2v m1s m2ts
-ps=ps eps pdf ai epsf
-qt=3g2 3gp2 qt mov 3gp
-text=h txt css php c cc js cpp xmp ini pas c++
+archive=rar tgz zip gz arj tar
+audio=mpp asx mp3 wma au wav snd mpc mid flac aif mp+ mp2 ogg rmi
+avi=flv vfw asf wmv mkv rm divx avi vob
+mpeg=mpa m2ts m1s m1v m2v m4a mts mpm mpe mpg mp4 mpeg
+ps=ai pdf ps epsf eps
+qt=3gp2 mov 3g2 qt 3gp
+text=js txt cc php css xmp cpp pas h ini c c++
 
 [%General]
 allFormats=false
@@ -311,13 +311,13 @@ History=/home/jad/
 OpenWith=@Invalid()
 OpenWithName=@Invalid()
 PathBrowser=/home/jad/
-RecentFiles=/run/media/jad/E/menu/pictures/1-150GQ54504Q6.gif, /home/jad/.conky/rev-eng.png, /home/jad/Pictures/IMG_20160606_111520(1)(Y)(noise_scale)(Level2)(x2.000000).png, /home/jad/Downloads/ARTWORKS-20-2.JPG, /home/jad/Downloads/d244f61c7bec54e7cf5768afb9389b504ec26a52.jpg, /home/jad/Pictures/2016-08-31 20-02-07 \x7684\x5c4f\x5e55\x622a\x56fe.png, /run/media/jad/Kindle/screenshot_2016_09_03T16_58_14+0800.png, /home/jad/LoliLinus-OS Material Design/screenshot.png, /home/jad/Pictures/2016-08-26 11-22-24 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Pictures/\x52a8\x6f2b\x56fe\x5305/\x5909\x614b\x738b\x5b50\x3068\x7b11\x308f\x306a\x3044\x732b\x3002 \x53d8\x6001\x738b\x5b50\x4e0e\x4e0d\x7b11\x732b/\x53d8\x6001\x738b\x5b50\x4e0e\x4e0d\x7b11\x732b\x31\x30\x30\x30\x35.jpg, /home/jad/Pictures/Wallpapers/32.png, /home/jad/Desktop/anime-girls-guns-apocalypse-buildings-anime-4709_waifu2x_art_noise3_scale_tta_1.png, /home/jad/Desktop/img63385_d0a2ea9cc791e872.jpg, /run/media/jad/E/menu/pictures/QQ\x622a\x56fe\x32\x30\x31\x35\x31\x31\x30\x31\x30\x30\x34\x30\x34\x38.png, /run/media/jad/E/menu/pictures/QQ\x56fe\x7247\x32\x30\x31\x36\x30\x34\x31\x35\x31\x36\x35\x38\x32\x31.jpg, /home/jad/Desktop/567430_1474208696_7796.jpg.m.jpg, /home/jad/Desktop/Screenshot_2016-09-24-17-07-59.png, /home/jad/Desktop/Screenshot_2016-09-24-17-07-55.png, /home/jad/900223-00000015.jpeg, "/run/user/1000/gvfs/mtp:host=%5Busb%3A003%2C007%5D/\x624b\x673a\x5b58\x50a8/EhViewer/image/900223-00000015.jpeg"
+RecentFiles=/run/media/jad/F/\x8fc5\x96f7\x4e0b\x8f7d/PSD-408/PSD-408.jpg, /run/media/jad/E/menu/pictures/1-150GQ54504Q6.gif, /home/jad/.conky/rev-eng.png, /home/jad/Pictures/IMG_20160606_111520(1)(Y)(noise_scale)(Level2)(x2.000000).png, /home/jad/Downloads/ARTWORKS-20-2.JPG, /home/jad/Downloads/d244f61c7bec54e7cf5768afb9389b504ec26a52.jpg, /home/jad/Pictures/2016-08-31 20-02-07 \x7684\x5c4f\x5e55\x622a\x56fe.png, /run/media/jad/Kindle/screenshot_2016_09_03T16_58_14+0800.png, /home/jad/LoliLinus-OS Material Design/screenshot.png, /home/jad/Pictures/2016-08-26 11-22-24 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Pictures/\x52a8\x6f2b\x56fe\x5305/\x5909\x614b\x738b\x5b50\x3068\x7b11\x308f\x306a\x3044\x732b\x3002 \x53d8\x6001\x738b\x5b50\x4e0e\x4e0d\x7b11\x732b/\x53d8\x6001\x738b\x5b50\x4e0e\x4e0d\x7b11\x732b\x31\x30\x30\x30\x35.jpg, /home/jad/Pictures/Wallpapers/32.png, /home/jad/Desktop/anime-girls-guns-apocalypse-buildings-anime-4709_waifu2x_art_noise3_scale_tta_1.png, /home/jad/Desktop/img63385_d0a2ea9cc791e872.jpg, /run/media/jad/E/menu/pictures/QQ\x622a\x56fe\x32\x30\x31\x35\x31\x31\x30\x31\x30\x30\x34\x30\x34\x38.png, /run/media/jad/E/menu/pictures/QQ\x56fe\x7247\x32\x30\x31\x36\x30\x34\x31\x35\x31\x36\x35\x38\x32\x31.jpg, /home/jad/Desktop/567430_1474208696_7796.jpg.m.jpg, /home/jad/Desktop/Screenshot_2016-09-24-17-07-59.png, /home/jad/Desktop/Screenshot_2016-09-24-17-07-55.png, /home/jad/900223-00000015.jpeg
 customPath=
 dbFlag=0
 dbFolder=
 dbThumbFlag=3
 dbThumbFolder=
-geom=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\0\xba\0\0\0H\0\0\x6\xd8\0\0\x4\x3\0\0\0\xba\0\0\0l\0\0\x6\xd8\0\0\x4\x3\0\0\0\0\0\0\0\0\a\x80)
+geom=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\0\xba\0\0\0H\0\0\x6\xde\0\0\x3\xff\0\0\0\xbd\0\0\0\x65\0\0\x6\xdb\0\0\x3\xfc\0\0\0\0\0\0\0\0\a\x80)
 language=zh
 oneInstance=false
 otherFlag=0
@@ -386,7 +386,7 @@ saveFolder=/home/jad/Desktop/
 saveUseOrg=false
 slideDelay=2000
 slideDir=0
-state=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\0\0\0\x6\x1f\0\0\x3\x10\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\n]\xe5Qwh\xf\0 \0\x31\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0)
+state=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\0\0\0\x6\x1f\0\0\x3\x16\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\n]\xe5Qwh\xf\0 \0\x31\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0)
 statusBar=true
 titleTemplate={Filename With Ext}
 toolBar=true
