@@ -110,4 +110,6 @@ export EDITOR=/usr/bin/vim
 #    xprop -id "$WINDOWID" -f _NET_WM_WINDOW_OPACITY 32c -set _NET_WM_WINDOW_OPACITY "$TRANSPARENCY_HEX"
 #fi
 
-curl -s https://api.imjad.cn/hitokoto | cowsay
+#curl -s https://api.imjad.cn/hitokoto | cowsay
+
+doge
