@@ -136,13 +136,13 @@ presets="@Variant(\0\0\0\b\0\0\0\x1\0\0\0\x16\0<\0L\0\x61\0s\0t\0 \0U\0s\0\x65\0
 preview=false
 
 [Format]
-archive=tgz arj tar zip rar gz
-audio=snd mp3 wav mp+ ogg mid au mpp flac wma aif mpc mp2 rmi asx
-avi=asf mkv rm vfw avi wmv vob flv divx
-mpeg=mpeg mpg mp4 mpe mts m1s m2v m2ts mpa mpm m1v m4a
-ps=ai eps pdf epsf ps
-qt=3gp mov 3g2 3gp2 qt
-text=cc pas c++ css c php xmp h ini js txt cpp
+archive=tgz rar tar arj gz zip
+audio=au mp3 mpc aif mpp rmi snd mid flac ogg mp+ wma asx mp2 wav
+avi=divx avi asf vob vfw flv rm mkv wmv
+mpeg=m1s m2ts mpa mpe m4a m2v mpeg mts m1v mpg mpm mp4
+ps=eps pdf ai ps epsf
+qt=3gp2 3gp mov 3g2 qt
+text=cc c++ cpp css ini txt php pas c xmp js h
 
 [%General]
 allFormats=false
@@ -246,8 +246,8 @@ geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\x2\x9d\0\0\x1\x38\0\0\x4h\0\0\x
 tabs=65535
 
 [ResizeDlg]
-geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\x3]\0\0\x1(\0\0\x4j\0\0\x3I\0\0\x3]\0\0\x1L\0\0\x4j\0\0\x3I\0\0\0\0\0\0\0\0\a\x80)
-presets=@Variant(\0\0\0\b\0\0\0\x1\0\0\0\x16\0<\0L\0\x61\0s\0t\0 \0U\0s\0\x65\0\x64\0>\0\0\0\f\0\0\0\x33\0\0\0\x1\0\0\x4\x38\0\0\a\x80\0\0\0\0\0@.\0\0\0\0\0\0@:\xab\x85\x1e\xb8Q\xec@R\0\0\0\0\0\0\0\0\0\x1\0\0\0\0\x1\0)
+geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\x3]\0\0\x1(\0\0\x4p\0\0\x3\x45\0\0\x3`\0\0\x1\x45\0\0\x4m\0\0\x3\x42\0\0\0\0\0\0\0\0\a\x80)
+presets=@Variant(\0\0\0\b\0\0\0\x1\0\0\0\x16\0<\0L\0\x61\0s\0t\0 \0U\0s\0\x65\0\x64\0>\0\0\0\f\0\0\0\x33\0\0\0\x1\0\0\0\x32\0\0\0\x32\x1\0\0\0\0?\xe6\x14z\xe1G\xae\x14?\xe6\x14z\xe1G\xae\x14@R\0\0\0\0\0\0\0\0\0\x1\0\0\0\0\x1\0)
 
 [Save]
 BMPCompress=false
@@ -311,13 +311,13 @@ History=/home/jad/
 OpenWith=@Invalid()
 OpenWithName=@Invalid()
 PathBrowser=/home/jad/
-RecentFiles=/run/media/jad/E/\x8fc5\x96f7\x4e0b\x8f7d/KAWD-709/KAWD-709.jpg, /run/media/jad/E/\x8fc5\x96f7\x4e0b\x8f7d/KAWD-709/KAWD-709B.jpg, /run/media/jad/F/\x8fc5\x96f7\x4e0b\x8f7d/PSD-408/PSD-408.jpg, /run/media/jad/E/menu/pictures/1-150GQ54504Q6.gif, /home/jad/.conky/rev-eng.png, /home/jad/Pictures/IMG_20160606_111520(1)(Y)(noise_scale)(Level2)(x2.000000).png, /home/jad/Downloads/ARTWORKS-20-2.JPG, /home/jad/Downloads/d244f61c7bec54e7cf5768afb9389b504ec26a52.jpg, /home/jad/Pictures/2016-08-31 20-02-07 \x7684\x5c4f\x5e55\x622a\x56fe.png, /run/media/jad/Kindle/screenshot_2016_09_03T16_58_14+0800.png, /home/jad/LoliLinus-OS Material Design/screenshot.png, /home/jad/Pictures/2016-08-26 11-22-24 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Pictures/\x52a8\x6f2b\x56fe\x5305/\x5909\x614b\x738b\x5b50\x3068\x7b11\x308f\x306a\x3044\x732b\x3002 \x53d8\x6001\x738b\x5b50\x4e0e\x4e0d\x7b11\x732b/\x53d8\x6001\x738b\x5b50\x4e0e\x4e0d\x7b11\x732b\x31\x30\x30\x30\x35.jpg, /home/jad/Pictures/Wallpapers/32.png, /home/jad/Desktop/anime-girls-guns-apocalypse-buildings-anime-4709_waifu2x_art_noise3_scale_tta_1.png, /home/jad/Desktop/img63385_d0a2ea9cc791e872.jpg, /run/media/jad/E/menu/pictures/QQ\x622a\x56fe\x32\x30\x31\x35\x31\x31\x30\x31\x30\x30\x34\x30\x34\x38.png, /run/media/jad/E/menu/pictures/QQ\x56fe\x7247\x32\x30\x31\x36\x30\x34\x31\x35\x31\x36\x35\x38\x32\x31.jpg, /home/jad/Desktop/567430_1474208696_7796.jpg.m.jpg, /home/jad/Desktop/Screenshot_2016-09-24-17-07-59.png
+RecentFiles=/home/jad/Desktop/IMG_20160606_1115201Ynoise_scaleLevel2x2.png, /home/jad/Pictures/IMG_20160606_111520(1)(Y)(noise_scale)(Level2)(x2.000000).png, /home/jad/Pictures/Konachan.com - 146961 barefoot blonde_hair flowers kusano_houki long_hair red_eyes sakura-sou_no_pet_na_kanojo seifuku shiina_mashiro tie.png, /run/media/jad/E/\x8fc5\x96f7\x4e0b\x8f7d/KAWD-709/KAWD-709.jpg, /run/media/jad/E/\x8fc5\x96f7\x4e0b\x8f7d/KAWD-709/KAWD-709B.jpg, /run/media/jad/F/\x8fc5\x96f7\x4e0b\x8f7d/PSD-408/PSD-408.jpg, /run/media/jad/E/menu/pictures/1-150GQ54504Q6.gif, /home/jad/.conky/rev-eng.png, /home/jad/Downloads/ARTWORKS-20-2.JPG, /home/jad/Downloads/d244f61c7bec54e7cf5768afb9389b504ec26a52.jpg, /home/jad/Pictures/2016-08-31 20-02-07 \x7684\x5c4f\x5e55\x622a\x56fe.png, /run/media/jad/Kindle/screenshot_2016_09_03T16_58_14+0800.png, /home/jad/LoliLinus-OS Material Design/screenshot.png, /home/jad/Pictures/2016-08-26 11-22-24 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Pictures/\x52a8\x6f2b\x56fe\x5305/\x5909\x614b\x738b\x5b50\x3068\x7b11\x308f\x306a\x3044\x732b\x3002 \x53d8\x6001\x738b\x5b50\x4e0e\x4e0d\x7b11\x732b/\x53d8\x6001\x738b\x5b50\x4e0e\x4e0d\x7b11\x732b\x31\x30\x30\x30\x35.jpg, /home/jad/Pictures/Wallpapers/32.png, /home/jad/Desktop/anime-girls-guns-apocalypse-buildings-anime-4709_waifu2x_art_noise3_scale_tta_1.png, /home/jad/Desktop/img63385_d0a2ea9cc791e872.jpg, /run/media/jad/E/menu/pictures/QQ\x622a\x56fe\x32\x30\x31\x35\x31\x31\x30\x31\x30\x30\x34\x30\x34\x38.png, /run/media/jad/E/menu/pictures/QQ\x56fe\x7247\x32\x30\x31\x36\x30\x34\x31\x35\x31\x36\x35\x38\x32\x31.jpg
 customPath=
 dbFlag=0
 dbFolder=
 dbThumbFlag=3
 dbThumbFolder=
-geom=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\0\xba\0\0\0H\0\0\x6\xde\0\0\x3\xff\0\0\0\xbd\0\0\0\x65\0\0\x6\xdb\0\0\x3\xfc\0\0\0\0\0\0\0\0\a\x80)
+geom=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\0K\0\0\0O\0\0\x6o\0\0\x4\x6\0\0\0N\0\0\0l\0\0\x6l\0\0\x4\x3\0\0\0\0\0\0\0\0\a\x80)
 language=zh
 oneInstance=false
 otherFlag=0
@@ -386,7 +386,7 @@ saveFolder=/home/jad/Desktop/
 saveUseOrg=false
 slideDelay=2000
 slideDir=0
-state=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\0\0\0\x6\x1f\0\0\x3\x16\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\n]\xe5Qwh\xf\0 \0\x31\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0)
+state=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\0\0\0\x6\x1f\0\0\x3\x1d\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\n]\xe5Qwh\xf\0 \0\x31\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0)
 statusBar=true
 titleTemplate={Filename With Ext}
 toolBar=true
