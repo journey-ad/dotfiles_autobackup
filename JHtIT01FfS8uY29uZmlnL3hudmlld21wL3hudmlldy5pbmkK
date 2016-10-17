@@ -136,13 +136,13 @@ presets="@Variant(\0\0\0\b\0\0\0\x1\0\0\0\x16\0<\0L\0\x61\0s\0t\0 \0U\0s\0\x65\0
 preview=false
 
 [Format]
-archive=tgz rar tar arj gz zip
-audio=au mp3 mpc aif mpp rmi snd mid flac ogg mp+ wma asx mp2 wav
-avi=divx avi asf vob vfw flv rm mkv wmv
-mpeg=m1s m2ts mpa mpe m4a m2v mpeg mts m1v mpg mpm mp4
-ps=eps pdf ai ps epsf
-qt=3gp2 3gp mov 3g2 qt
-text=cc c++ cpp css ini txt php pas c xmp js h
+archive=gz arj rar tar zip tgz
+audio=asx mp3 snd rmi au wav ogg mpc mid aif flac wma mp+ mpp mp2
+avi=mkv flv rm divx asf wmv vob avi vfw
+mpeg=m2v mpeg m2ts m1s mpm mpa mpg mp4 mts m1v m4a mpe
+ps=epsf ai eps ps pdf
+qt=3gp mov qt 3g2 3gp2
+text=xmp c++ cpp ini css txt h cc c js php pas
 
 [%General]
 allFormats=false
@@ -311,7 +311,7 @@ History=/home/jad/
 OpenWith=@Invalid()
 OpenWithName=@Invalid()
 PathBrowser=/home/jad/
-RecentFiles=/home/jad/Desktop/IMG_20160606_1115201Ynoise_scaleLevel2x2.png, /home/jad/Pictures/IMG_20160606_111520(1)(Y)(noise_scale)(Level2)(x2.000000).png, /home/jad/Pictures/Konachan.com - 146961 barefoot blonde_hair flowers kusano_houki long_hair red_eyes sakura-sou_no_pet_na_kanojo seifuku shiina_mashiro tie.png, /run/media/jad/E/\x8fc5\x96f7\x4e0b\x8f7d/KAWD-709/KAWD-709.jpg, /run/media/jad/E/\x8fc5\x96f7\x4e0b\x8f7d/KAWD-709/KAWD-709B.jpg, /run/media/jad/F/\x8fc5\x96f7\x4e0b\x8f7d/PSD-408/PSD-408.jpg, /run/media/jad/E/menu/pictures/1-150GQ54504Q6.gif, /home/jad/.conky/rev-eng.png, /home/jad/Downloads/ARTWORKS-20-2.JPG, /home/jad/Downloads/d244f61c7bec54e7cf5768afb9389b504ec26a52.jpg, /home/jad/Pictures/2016-08-31 20-02-07 \x7684\x5c4f\x5e55\x622a\x56fe.png, /run/media/jad/Kindle/screenshot_2016_09_03T16_58_14+0800.png, /home/jad/LoliLinus-OS Material Design/screenshot.png, /home/jad/Pictures/2016-08-26 11-22-24 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Pictures/\x52a8\x6f2b\x56fe\x5305/\x5909\x614b\x738b\x5b50\x3068\x7b11\x308f\x306a\x3044\x732b\x3002 \x53d8\x6001\x738b\x5b50\x4e0e\x4e0d\x7b11\x732b/\x53d8\x6001\x738b\x5b50\x4e0e\x4e0d\x7b11\x732b\x31\x30\x30\x30\x35.jpg, /home/jad/Pictures/Wallpapers/32.png, /home/jad/Desktop/anime-girls-guns-apocalypse-buildings-anime-4709_waifu2x_art_noise3_scale_tta_1.png, /home/jad/Desktop/img63385_d0a2ea9cc791e872.jpg, /run/media/jad/E/menu/pictures/QQ\x622a\x56fe\x32\x30\x31\x35\x31\x31\x30\x31\x30\x30\x34\x30\x34\x38.png, /run/media/jad/E/menu/pictures/QQ\x56fe\x7247\x32\x30\x31\x36\x30\x34\x31\x35\x31\x36\x35\x38\x32\x31.jpg
+RecentFiles=/home/jad/Desktop/alipay.png, /home/jad/Desktop/IMG_20160606_1115201Ynoise_scaleLevel2x2.png, /home/jad/Pictures/IMG_20160606_111520(1)(Y)(noise_scale)(Level2)(x2.000000).png, /home/jad/Pictures/Konachan.com - 146961 barefoot blonde_hair flowers kusano_houki long_hair red_eyes sakura-sou_no_pet_na_kanojo seifuku shiina_mashiro tie.png, /run/media/jad/E/\x8fc5\x96f7\x4e0b\x8f7d/KAWD-709/KAWD-709.jpg, /run/media/jad/E/\x8fc5\x96f7\x4e0b\x8f7d/KAWD-709/KAWD-709B.jpg, /run/media/jad/F/\x8fc5\x96f7\x4e0b\x8f7d/PSD-408/PSD-408.jpg, /run/media/jad/E/menu/pictures/1-150GQ54504Q6.gif, /home/jad/.conky/rev-eng.png, /home/jad/Downloads/ARTWORKS-20-2.JPG, /home/jad/Downloads/d244f61c7bec54e7cf5768afb9389b504ec26a52.jpg, /home/jad/Pictures/2016-08-31 20-02-07 \x7684\x5c4f\x5e55\x622a\x56fe.png, /run/media/jad/Kindle/screenshot_2016_09_03T16_58_14+0800.png, /home/jad/LoliLinus-OS Material Design/screenshot.png, /home/jad/Pictures/2016-08-26 11-22-24 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Pictures/\x52a8\x6f2b\x56fe\x5305/\x5909\x614b\x738b\x5b50\x3068\x7b11\x308f\x306a\x3044\x732b\x3002 \x53d8\x6001\x738b\x5b50\x4e0e\x4e0d\x7b11\x732b/\x53d8\x6001\x738b\x5b50\x4e0e\x4e0d\x7b11\x732b\x31\x30\x30\x30\x35.jpg, /home/jad/Pictures/Wallpapers/32.png, /home/jad/Desktop/anime-girls-guns-apocalypse-buildings-anime-4709_waifu2x_art_noise3_scale_tta_1.png, /home/jad/Desktop/img63385_d0a2ea9cc791e872.jpg, /run/media/jad/E/menu/pictures/QQ\x622a\x56fe\x32\x30\x31\x35\x31\x31\x30\x31\x30\x30\x34\x30\x34\x38.png
 customPath=
 dbFlag=0
 dbFolder=
