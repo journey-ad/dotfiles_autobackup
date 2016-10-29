@@ -136,13 +136,13 @@ presets="@Variant(\0\0\0\b\0\0\0\x1\0\0\0\x16\0<\0L\0\x61\0s\0t\0 \0U\0s\0\x65\0
 preview=false
 
 [Format]
-archive=gz arj rar tar zip tgz
-audio=asx mp3 snd rmi au wav ogg mpc mid aif flac wma mp+ mpp mp2
-avi=mkv flv rm divx asf wmv vob avi vfw
-mpeg=m2v mpeg m2ts m1s mpm mpa mpg mp4 mts m1v m4a mpe
-ps=epsf ai eps ps pdf
-qt=3gp mov qt 3g2 3gp2
-text=xmp c++ cpp ini css txt h cc c js php pas
+archive=zip tgz rar tar gz arj
+audio=wma au snd mp+ flac mpp rmi mp3 mid mp2 aif wav ogg mpc asx
+avi=rm vfw avi divx mkv wmv vob asf flv
+mpeg=mpa mpm m2v mpeg mts m4a mp4 mpg m1s mpe m1v m2ts
+ps=pdf epsf ai ps eps
+qt=mov 3gp2 3gp qt 3g2
+text=cc c++ css js ini c h txt php cpp pas xmp
 
 [%General]
 allFormats=false
@@ -311,13 +311,13 @@ History=/home/jad/
 OpenWith=@Invalid()
 OpenWithName=@Invalid()
 PathBrowser=/home/jad/
-RecentFiles=/home/jad/Desktop/alipay.png, /home/jad/Desktop/IMG_20160606_1115201Ynoise_scaleLevel2x2.png, /home/jad/Pictures/IMG_20160606_111520(1)(Y)(noise_scale)(Level2)(x2.000000).png, /home/jad/Pictures/Konachan.com - 146961 barefoot blonde_hair flowers kusano_houki long_hair red_eyes sakura-sou_no_pet_na_kanojo seifuku shiina_mashiro tie.png, /run/media/jad/E/\x8fc5\x96f7\x4e0b\x8f7d/KAWD-709/KAWD-709.jpg, /run/media/jad/E/\x8fc5\x96f7\x4e0b\x8f7d/KAWD-709/KAWD-709B.jpg, /run/media/jad/F/\x8fc5\x96f7\x4e0b\x8f7d/PSD-408/PSD-408.jpg, /run/media/jad/E/menu/pictures/1-150GQ54504Q6.gif, /home/jad/.conky/rev-eng.png, /home/jad/Downloads/ARTWORKS-20-2.JPG, /home/jad/Downloads/d244f61c7bec54e7cf5768afb9389b504ec26a52.jpg, /home/jad/Pictures/2016-08-31 20-02-07 \x7684\x5c4f\x5e55\x622a\x56fe.png, /run/media/jad/Kindle/screenshot_2016_09_03T16_58_14+0800.png, /home/jad/LoliLinus-OS Material Design/screenshot.png, /home/jad/Pictures/2016-08-26 11-22-24 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Pictures/\x52a8\x6f2b\x56fe\x5305/\x5909\x614b\x738b\x5b50\x3068\x7b11\x308f\x306a\x3044\x732b\x3002 \x53d8\x6001\x738b\x5b50\x4e0e\x4e0d\x7b11\x732b/\x53d8\x6001\x738b\x5b50\x4e0e\x4e0d\x7b11\x732b\x31\x30\x30\x30\x35.jpg, /home/jad/Pictures/Wallpapers/32.png, /home/jad/Desktop/anime-girls-guns-apocalypse-buildings-anime-4709_waifu2x_art_noise3_scale_tta_1.png, /home/jad/Desktop/img63385_d0a2ea9cc791e872.jpg, /run/media/jad/E/menu/pictures/QQ\x622a\x56fe\x32\x30\x31\x35\x31\x31\x30\x31\x30\x30\x34\x30\x34\x38.png
+RecentFiles="/home/jad/Pictures/\x56fe\x66f2\x5305/\x841d\x8389\x56fe/id=38856619(\x7c73\x767d\x7c95).png", /home/jad/Desktop/alipay.png, /home/jad/Desktop/IMG_20160606_1115201Ynoise_scaleLevel2x2.png, /home/jad/Pictures/IMG_20160606_111520(1)(Y)(noise_scale)(Level2)(x2.000000).png, /home/jad/Pictures/Konachan.com - 146961 barefoot blonde_hair flowers kusano_houki long_hair red_eyes sakura-sou_no_pet_na_kanojo seifuku shiina_mashiro tie.png, /run/media/jad/E/\x8fc5\x96f7\x4e0b\x8f7d/KAWD-709/KAWD-709.jpg, /run/media/jad/E/\x8fc5\x96f7\x4e0b\x8f7d/KAWD-709/KAWD-709B.jpg, /run/media/jad/F/\x8fc5\x96f7\x4e0b\x8f7d/PSD-408/PSD-408.jpg, /run/media/jad/E/menu/pictures/1-150GQ54504Q6.gif, /home/jad/.conky/rev-eng.png, /home/jad/Downloads/ARTWORKS-20-2.JPG, /home/jad/Downloads/d244f61c7bec54e7cf5768afb9389b504ec26a52.jpg, /home/jad/Pictures/2016-08-31 20-02-07 \x7684\x5c4f\x5e55\x622a\x56fe.png, /run/media/jad/Kindle/screenshot_2016_09_03T16_58_14+0800.png, /home/jad/LoliLinus-OS Material Design/screenshot.png, /home/jad/Pictures/2016-08-26 11-22-24 \x7684\x5c4f\x5e55\x622a\x56fe.png, /home/jad/Pictures/\x52a8\x6f2b\x56fe\x5305/\x5909\x614b\x738b\x5b50\x3068\x7b11\x308f\x306a\x3044\x732b\x3002 \x53d8\x6001\x738b\x5b50\x4e0e\x4e0d\x7b11\x732b/\x53d8\x6001\x738b\x5b50\x4e0e\x4e0d\x7b11\x732b\x31\x30\x30\x30\x35.jpg, /home/jad/Pictures/Wallpapers/32.png, /home/jad/Desktop/anime-girls-guns-apocalypse-buildings-anime-4709_waifu2x_art_noise3_scale_tta_1.png, /home/jad/Desktop/img63385_d0a2ea9cc791e872.jpg
 customPath=
 dbFlag=0
 dbFolder=
 dbThumbFlag=3
 dbThumbFolder=
-geom=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\0K\0\0\0O\0\0\x6o\0\0\x4\x6\0\0\0N\0\0\0l\0\0\x6l\0\0\x4\x3\0\0\0\0\0\0\0\0\a\x80)
+geom=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\xff\xff\xff\xfd\0\0\0\x1f\0\0\x2w\0\0\x2\xc1\0\0\0\0\0\0\0<\0\0\x2t\0\0\x2\xbe\0\0\0\0\0\0\0\0\x5P)
 language=zh
 oneInstance=false
 otherFlag=0
@@ -386,7 +386,7 @@ saveFolder=/home/jad/Desktop/
 saveUseOrg=false
 slideDelay=2000
 slideDir=0
-state=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\0\0\0\x6\x1f\0\0\x3\x1d\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\n]\xe5Qwh\xf\0 \0\x31\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0)
+state=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\0\0\0\x2u\0\0\x2\n\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\n]\xe5Qwh\xf\0 \0\x31\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0)
 statusBar=true
 titleTemplate={Filename With Ext}
 toolBar=true
