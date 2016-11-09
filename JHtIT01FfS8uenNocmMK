@@ -100,6 +100,8 @@ alias yRs="yaourt -Rs"
 alias s="python -m http.server 6666"
 alias gj="sudo systemctl poweroff"
 alias v1="vncserver :1"
+alias usb="sudo simple-mtpfs -o allow_other /mnt/mtp"
+alias usbr="sudo fusermount -u /mnt/mtp"
 eval `dircolors ~/dircolors-solarized/dircolors.256dark`
 
 
