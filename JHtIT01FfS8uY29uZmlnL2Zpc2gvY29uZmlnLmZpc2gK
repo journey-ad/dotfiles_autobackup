@@ -1,0 +1,38 @@
+alias vi="vim"
+alias p="pacman"
+alias sp="sudo pacman"
+alias spS="sudo pacman -S"
+alias pSs="pacman -Ss"
+alias spR="sudo pacman -R"
+alias spRs="sudo pacman -Rs"
+
+alias y="yaourt"
+alias yS="yaourt -S"
+alias ySs="yaourt -Ss"
+alias yR="yaourt -R"
+alias yRs="yaourt -Rs"
+
+alias s="python -m http.server 6666"
+alias gj="sudo systemctl poweroff"
+alias v1="vncserver :1"
+alias usb="sudo simple-mtpfs -o allow_other /mnt/mtp"
+alias usbr="sudo fusermount -u /mnt/mtp"
+
+set -x CUDA_BIN_PATH /opt/cuda
+
+function torch_activate
+	set -gx TORCH_INSTALL_DIR $HOME
+	set -gx LUA_PATH $TORCH_INSTALL_DIR'/.luarocks/share/lua/5.1/?.lua;'$TORCH_INSTALL_DIR'/.luarocks/share/lua/5.1/?/init.lua;'$TORCH_INSTALL_DIR'/torch/install/share/lua/5.1/?.lua;'$TORCH_INSTALL_DIR'/torch/install/share/lua/5.1/?/init.lua;./?.lua;'$TORCH_INSTALL_DIR'/torch/install/share/luajit-2.1.0-beta1/?.lua;/usr/local/share/lua/5.1/?.lua;/usr/local/share/lua/5.1/?/init.lua'
+	set -gx LUA_CPATH $TORCH_INSTALL_DIR'/.luarocks/lib/lua/5.1/?.so;'$TORCH_INSTALL_DIR'/torch/install/lib/lua/5.1/?.so;./?.so;/usr/local/lib/lua/5.1/?.so;/usr/local/lib/lua/5.1/loadall.so'
+	set -gx LD_LIBRARY_PATH $TORCH_INSTALL_DIR/torch/install/lib $LD_LIBRARY_PATH
+	set -gx DYLD_LIBRARY_PATH $TORCH_INSTALL_DIR/torch/install/lib $DYLD_LIBRARY_PATH
+	set -gx LUA_CPATH $TORCH_INSTALL_DIR'/torch/install/lib/?.so;' $LUA_CPATH
+	set -gx fish_user_paths $TORCH_INSTALL_DIR/torch/install/bin $fish_user_paths
+end
+
+torch_activate
+
+set -x EDITOR /usr/bin/vim
+
+doge
+curl -s https://api.imjad.cn/hitokoto/
