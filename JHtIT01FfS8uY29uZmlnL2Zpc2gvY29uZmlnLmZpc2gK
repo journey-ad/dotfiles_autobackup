@@ -46,7 +46,11 @@ torch_activate
 set -x EDITOR /usr/bin/vim
 
 function say
-    mpv "http://dict.youdao.com/dictvoice?audio=$argv&type=1" > /dev/null
+	if echo "$argv" | od | grep '[1-9][0-9][0-9]'
+		mpv "fanyi.baidu.com/gettts?lan=zh&text=$argv&spd=5&source=web" > /dev/null
+	else
+    	mpv "http://dict.youdao.com/dictvoice?audio=$argv&type=1" > /dev/null
+	end
 end
 
 doge
