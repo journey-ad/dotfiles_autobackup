@@ -45,15 +45,11 @@ torch_activate
 
 set -x EDITOR /usr/bin/vim
 
-function options
-  echo $argv | sed 's|--*|\\'\n'|g' | grep -v '^$'
-end
-
 function say
 	set text $argv
 	set lang zh
 	set speed 5
-	for i in (options $argv)
+	for i in ($argv | sed 's|--*|\\'\n'|g' | grep -o "[^ ]\+\( \+[^ ]\+\)*" | grep -v '^$')
 		echo $i | read -l option value
 		switch $option
 			case t text
