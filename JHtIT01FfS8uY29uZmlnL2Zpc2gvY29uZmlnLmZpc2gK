@@ -45,8 +45,27 @@ torch_activate
 
 set -x EDITOR /usr/bin/vim
 
+function options
+  echo $argv | sed 's|--*|\\'\n'|g' | grep -v '^$'
+end
+
 function say
-	mpv "http://fanyi.baidu.com/gettts?lan=zh&text=$argv&spd=5&source=web" > /dev/null
+	set text $argv
+	set lang zh
+	set speed 5
+	for i in (options $argv)
+		echo $i | read -l option value
+		switch $option
+			case t text
+				set text $value
+			case l lang
+				set lang $value
+			case s speed
+				set speed $value
+		end
+	end
+	echo "http://fanyi.baidu.com/gettts?lan=$lang&text=$text&spd=$speed&source=web"
+	mpv "http://fanyi.baidu.com/gettts?lan=$lang&text=$text&spd=$speed&source=web"
 end
 
 doge
