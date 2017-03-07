@@ -46,9 +46,8 @@ torch_activate
 set -x EDITOR /usr/bin/vim
 
 function say
-    mpv http://dict.youdao.com/dictvoice?audio=${1}\&type=1 > /dev/null
+    mpv "http://dict.youdao.com/dictvoice?audio=$argv&type=1" > /dev/null
 end
-alias say="say $1"
 
 doge
 curl -s https://api.imjad.cn/hitokoto/
