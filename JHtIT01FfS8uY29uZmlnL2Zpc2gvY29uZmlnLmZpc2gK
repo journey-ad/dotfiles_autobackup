@@ -48,8 +48,7 @@ set -x EDITOR /usr/bin/vim
 function say
 	set text $argv
 	set lang zh
-	set speed 5
-	for i in ($argv | sed 's|--*|\\'\n'|g' | grep -o "[^ ]\+\( \+[^ ]\+\)*" | grep -v '^$')
+	for i in (echo $argv | sed 's|--*|\\'\n'|g' | sed 's/[ \t]*$//g' | grep -v '^$')
 		echo $i | read -l option value
 		switch $option
 			case t text
@@ -60,8 +59,7 @@ function say
 				set speed $value
 		end
 	end
-	echo "http://fanyi.baidu.com/gettts?lan=$lang&text=$text&spd=$speed&source=web"
-	mpv "http://fanyi.baidu.com/gettts?lan=$lang&text=$text&spd=$speed&source=web"
+	mpv "https://fanyi.baidu.com/gettts?lan=$lang&text=$text&spd=$speed&source=web" > /dev/null
 end
 
 doge
