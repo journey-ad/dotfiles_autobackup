@@ -46,6 +46,9 @@ torch_activate
 set -x EDITOR /usr/bin/vim
 
 function say
+    while read -l line
+        set argv $line
+    end
 	set text $argv[1]
 	set lang zh
 	for i in (echo $argv | sed 's|--*|\\'\n'|g' | sed 's/[ \t]*$//g' | grep -v '^$')
@@ -60,6 +63,7 @@ function say
 		end
 	end
 	if [ $text ]
+		echo $text
 		mpv "https://fanyi.baidu.com/gettts?lan=$lang&text=$text&spd=$speed&source=web" > /dev/null
 	else
 		echo "say -t text -l language(zh cte en jp kor pt de spa ru fra) -s speed"
