@@ -46,9 +46,6 @@ torch_activate
 set -x EDITOR /usr/bin/vim
 
 function say
-    while read -l line
-        set argv $line
-    end
 	set text $argv[1]
 	set lang zh
 	for i in (echo $argv | sed 's|--*|\\'\n'|g' | sed 's/[ \t]*$//g' | grep -v '^$')
