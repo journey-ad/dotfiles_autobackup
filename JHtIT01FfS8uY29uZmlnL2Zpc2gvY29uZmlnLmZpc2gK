@@ -66,5 +66,9 @@ function say
 	end
 end
 
+function hitokoto
+	curl -s https://api.imjad.cn/hitokoto/
+end
+
 doge
-curl -s https://api.imjad.cn/hitokoto/
+hitokoto
