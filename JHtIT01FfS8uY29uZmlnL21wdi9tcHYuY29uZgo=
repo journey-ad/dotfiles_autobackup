@@ -32,7 +32,7 @@ osd-duration=2000
 no-border
 
 # Screenshots file name
-screenshot-template=~/Pictures/screenshot/mpv-screenshot-%f-%p  
+screenshot-template=~/Pictures/Screenshot/mpv-screenshot-%f-%p  
 screenshot-format=png  
 
 # Save the current playback position on quit and resume on next run.
