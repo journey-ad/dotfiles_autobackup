@@ -73,7 +73,7 @@ function hitokoto
 end
 
 function rd
-	rdesktop -a 16 -u administrator 112.74.198.208 -g '1024*768'
+	rdesktop -a 16 -r disk:arch=/home/jad/rdesktop -r clipboard:PRIMARYCLIPBOARD -u administrator 112.74.198.208 -g '1024*768'
 end
 
 doge
