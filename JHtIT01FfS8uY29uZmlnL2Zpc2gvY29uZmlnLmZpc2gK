@@ -21,6 +21,7 @@ alias cproxy="cli_proxy"
 alias paintschainer="cd /home/jad/src/PaintsChainer ; python server.py"
 
 alias rm='echo "This is not the command you are looking for, Please Use "trash"!!!"; false'
+alias top=htop
 
 eval (thefuck --alias | tr '\n' ';')
 
