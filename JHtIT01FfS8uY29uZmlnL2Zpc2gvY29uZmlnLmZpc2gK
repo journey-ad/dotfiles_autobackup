@@ -68,7 +68,7 @@ function say
 		end
 	end
 	if [ $text ]
-		echo $text
+		t $text
 		mpv "https://fanyi.baidu.com/gettts?lan=$lang&text=$text&spd=$speed&source=web" > /dev/null
 	else
 		echo "say -t text -l language(zh cte en jp kor pt de spa ru fra) -s speed"
