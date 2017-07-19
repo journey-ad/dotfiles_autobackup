@@ -47,6 +47,12 @@ torch_activate
 
 set -x EDITOR /usr/bin/vim
 
+function t
+        export GREP_COLOR="1;34"
+        curl -s "http://fanyi.youdao.com/openapi.do?keyfrom=leecade&key=54015339&type=data&doctype=json&version=1.1&q=$argv[1]" | grep --color=auto -oP '(?<="explains":\[")[^"]*'
+        export GREP_COLOR=""
+end
+
 function say
 	set text $argv[1]
 	set lang zh
