@@ -48,12 +48,22 @@ torch_activate
 set -x EDITOR /usr/bin/vim
 
 function t
-	export GREP_COLOR="1;34"
 	set text $argv[1]
+	set lang "auto"
+	export GREP_COLOR="1;34"
+	for i in (echo $argv | sed 's|--*|\\'\n'|g' | sed 's/[ \t]*$//g' | grep -v '^$')
+		echo $i | read -l option value
+		switch $option
+			case t text
+				set text $value
+			case l lang
+				set lang $value
+		end
+	end
 	set salt (date +%s)
 	set str1 "2015063000000001""$text""$salt""12345678"
 	set sign (echo -n $str1 | md5sum | cut -d ' ' -f1)
-	printf (curl -s "http://api.fanyi.baidu.com/api/trans/vip/translate?q=$text&from=auto&to=zh&appid=2015063000000001&salt=$salt&sign=$sign") | grep --color=auto -oP '(?<="dst":")[^"]*'
+	printf (curl -s "http://api.fanyi.baidu.com/api/trans/vip/translate?q=$text&from=$lang&to=zh&appid=2015063000000001&salt=$salt&sign=$sign") | grep --color=auto -oP '(?<="dst":")[^"]*'
 	export GREP_COLOR=""
 end
 
@@ -68,6 +78,10 @@ function say
 		switch $option
 			case t text
 				set text $value
+				set salt (date +%s)
+				set str1 "2015063000000001""$text""$salt""12345678"
+				set sign (echo -n $str1 | md5sum | cut -d ' ' -f1)
+				set lang (curl -s "http://api.fanyi.baidu.com/api/trans/vip/translate?q=$text&from=auto&to=zh&appid=2015063000000001&salt=$salt&sign=$sign" | grep -oP '(?<="from":")[^"]*')
 			case l lang
 				set lang $value
 			case s speed
@@ -75,7 +89,7 @@ function say
 		end
 	end
 	if [ $text ]
-		t $text
+		t -t $text -l $lang
 		mpv "https://fanyi.baidu.com/gettts?lan=$lang&text=$text&spd=$speed&source=web" > /dev/null
 	else
 		echo "say -t text -l language(zh cte en jp kor pt de spa ru fra) -s speed"
