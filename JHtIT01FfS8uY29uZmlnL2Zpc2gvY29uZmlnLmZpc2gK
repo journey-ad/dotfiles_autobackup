@@ -52,7 +52,12 @@ function t
 	set lang "auto"
 	echo -n $text | grep -Pq "[\p{Han}]"
 	if test $status -eq 0
-		set transto en
+		echo -n $text | grep -Pq "[\p{Hiragana}\p{Katakana}]"
+		if test $status -eq 0
+			set transto zh
+		else
+			set transto en
+		end
 	else
 		set transto zh
 	end
@@ -64,7 +69,12 @@ function t
 				set text $value
 				echo -n $text | grep -Pq "[\p{Han}]"
 				if test $status -eq 0
-					set transto en
+					echo -n $text | grep -Pq "[\p{Hiragana}\p{Katakana}]"
+					if test $status -eq 0
+						set transto zh
+					else
+						set transto en
+					end
 				else
 					set transto zh
 				end
