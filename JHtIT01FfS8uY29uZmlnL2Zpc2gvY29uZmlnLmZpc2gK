@@ -63,7 +63,13 @@ function t
 	set salt (date +%s)
 	set str1 "2015063000000001""$text""$salt""12345678"
 	set sign (echo -n $str1 | md5sum | cut -d ' ' -f1)
-	printf (curl -s "http://api.fanyi.baidu.com/api/trans/vip/translate?q=$text&from=$lang&to=zh&appid=2015063000000001&salt=$salt&sign=$sign") | grep --color=auto -oP '(?<="dst":")[^"]*'
+	echo $text | od -c | grep -q '[1-9][0-9][0-9]'
+	if test $status -eq 0
+		set transto en
+	else
+		set transto zh
+	end
+	printf (curl -s "http://api.fanyi.baidu.com/api/trans/vip/translate?q=$text&from=$lang&to=$transto&appid=2015063000000001&salt=$salt&sign=$sign") | grep --color=auto -oP '(?<="dst":")[^"]*'
 	export GREP_COLOR=""
 end
 
