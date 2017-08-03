@@ -1,5 +1,5 @@
 # Video
-vo=vdpau:interpolation:scale=ewa_lanczossharp:icc-profile-auto
+# vo=vdpau:interpolation:scale=ewa_lanczossharp:icc-profile-auto
 video-sync=display-resample
 hwdec=vdpau
 display-fps=60
@@ -15,8 +15,8 @@ geometry=50%:50%
 # Volume
 #volume=100
 #af=drc
-softvol=yes
-softvol-max=400
+# softvol=yes
+# softvol-max=400
 af-defaults=lavrresample:normalize=no
 
 # OSD
@@ -47,7 +47,7 @@ save-position-on-quit
 
 # Subtitles
 sub-auto=fuzzy
-sub-text-font-size=48
+# sub-text-font-size=48
 #sub-text-font='PingFangSC-Regular'
 
 # Languages
