@@ -2,6 +2,7 @@
 # vo=vdpau:interpolation:scale=ewa_lanczossharp:icc-profile-auto
 video-sync=display-resample
 hwdec=vdpau
+vo=opengl-hq
 display-fps=60
 autofit-larger=90%x80%
 autofit-smaller=30%x30%
