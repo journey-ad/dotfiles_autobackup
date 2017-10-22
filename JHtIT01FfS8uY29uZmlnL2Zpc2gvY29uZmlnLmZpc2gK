@@ -55,11 +55,5 @@ function rd
 	rdesktop -a 16 -r disk:arch=/home/jad/rdesktop -r clipboard:PRIMARYCLIPBOARD -u administrator 112.74.198.208 -g '1024*768'
 end
 
-function run
-	export LANG=zh_CN.UTF-8
-	eval $argv
-	export LANG=en_US.UTF-8
-end
-
-doge
+quin
 hitokoto
