@@ -25,6 +25,8 @@ alias top=htop
 
 eval (thefuck --alias | tr '\n' ';')
 
+set -x PATH $PATH ~/.npm-global/bin
+
 set -x CUDA_BIN_PATH /opt/cuda
 set -x PATH $PATH /opt/cuda/bin
 
