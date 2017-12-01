@@ -51,6 +51,11 @@ function hitokoto
 	curl -s https://api.imjad.cn/hitokoto/
 end
 
+function hello
+        toilet -f mono12 "Hello! \
+     JAD!"
+end
+
 function rd
 	rdesktop -a 16 -r disk:arch=/home/jad/rdesktop -r clipboard:PRIMARYCLIPBOARD -u administrator 112.74.198.208 -g '1024*768'
 end
